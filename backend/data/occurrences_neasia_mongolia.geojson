@@ -1,0 +1,6254 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     97.71667,
+     42.9
+    ]
+   },
+   "properties": {
+    "id": "NEA-K47-1",
+    "name": "Khatansuudal",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     97.71667,
+     42.9
+    ]
+   },
+   "properties": {
+    "id": "NEA-K47-3",
+    "name": "East Khatansuudal",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     96.53472,
+     42.93333
+    ]
+   },
+   "properties": {
+    "id": "NEA-K47-4",
+    "name": "Talynmeltes",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.07611,
+     43.08722
+    ]
+   },
+   "properties": {
+    "id": "NEA-K47-6",
+    "name": "Guut hudag",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.63333,
+     43.95
+    ]
+   },
+   "properties": {
+    "id": "NEA-K48-1",
+    "name": "Shuteen",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.06667,
+     43.03333
+    ]
+   },
+   "properties": {
+    "id": "NEA-K48-2",
+    "name": "Khan Bogd",
+    "commodities": [
+     "Nb",
+     "REE"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.85833,
+     43.00278
+    ]
+   },
+   "properties": {
+    "id": "NEA-K48-3",
+    "name": "Oyu Tolgoi",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.59444,
+     42.56389
+    ]
+   },
+   "properties": {
+    "id": "NEA-K48-4",
+    "name": "Zuun Togoo Uul",
+    "commodities": [
+     "Sb"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.41667,
+     42.61667
+    ]
+   },
+   "properties": {
+    "id": "NEA-K48-5",
+    "name": "Alag tolgoi",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     102.88333,
+     43.11667
+    ]
+   },
+   "properties": {
+    "id": "NEA-K48-6",
+    "name": "Suhayt",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.91667,
+     42.13333
+    ]
+   },
+   "properties": {
+    "id": "NEA-K48-7",
+    "name": "Khartolgoi",
+    "commodities": [
+     "Pb",
+     "Ag",
+     "Sb"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.88333,
+     42.1
+    ]
+   },
+   "properties": {
+    "id": "NEA-K48-8",
+    "name": "Zurkh",
+    "commodities": [
+     "Ag",
+     "Pb"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.9,
+     42.01667
+    ]
+   },
+   "properties": {
+    "id": "NEA-K48-9",
+    "name": "Khar morit",
+    "commodities": [
+     "Sn",
+     "W"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.25,
+     42.68333
+    ]
+   },
+   "properties": {
+    "id": "NEA-K49-10",
+    "name": "Khoit Barjin",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.73333,
+     42.41667
+    ]
+   },
+   "properties": {
+    "id": "NEA-K49-12",
+    "name": "Sulinheer group",
+    "commodities": [
+     "Cr"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.33333,
+     43.87222
+    ]
+   },
+   "properties": {
+    "id": "NEA-K49-6",
+    "name": "Tsagaan Suvarga",
+    "commodities": [
+     "Cu",
+     "Mo"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.29444,
+     43.67917
+    ]
+   },
+   "properties": {
+    "id": "NEA-K49-8",
+    "name": "Horgo uul",
+    "commodities": [
+     "Sr"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.05,
+     42.96667
+    ]
+   },
+   "properties": {
+    "id": "NEA-K49-9",
+    "name": "Lugingol",
+    "commodities": [
+     "REE"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     89.93333,
+     47.86944
+    ]
+   },
+   "properties": {
+    "id": "NEA-L45-1",
+    "name": "Sagsai",
+    "commodities": [
+     "W"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     95.65,
+     46.88139
+    ]
+   },
+   "properties": {
+    "id": "NEA-L46-1",
+    "name": "Uet Ondor",
+    "commodities": [
+     "Fe"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     93.3,
+     46.47778
+    ]
+   },
+   "properties": {
+    "id": "NEA-L46-10",
+    "name": "Oyut tolgoi 1",
+    "commodities": [
+     "Sn",
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.78333,
+     46.55
+    ]
+   },
+   "properties": {
+    "id": "NEA-L46-11",
+    "name": "Boorch",
+    "commodities": [
+     "Pb",
+     "Ag"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     94.48333,
+     45.89167
+    ]
+   },
+   "properties": {
+    "id": "NEA-L46-12",
+    "name": "Del Tsahir",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     94.18083,
+     45.98194
+    ]
+   },
+   "properties": {
+    "id": "NEA-L46-13",
+    "name": "Bor uul",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.29722,
+     46.35194
+    ]
+   },
+   "properties": {
+    "id": "NEA-L46-14",
+    "name": "Khardav",
+    "commodities": [
+     "W",
+     "Sn"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.35,
+     46.66167
+    ]
+   },
+   "properties": {
+    "id": "NEA-L46-15",
+    "name": "Khargait 1",
+    "commodities": [
+     "Be"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.42,
+     46.58667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L46-16",
+    "name": "Shoroot",
+    "commodities": [
+     "Be"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.88333,
+     46.09167
+    ]
+   },
+   "properties": {
+    "id": "NEA-L46-17",
+    "name": "Angirt",
+    "commodities": [
+     "Be",
+     "Ta",
+     "Nb"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.395,
+     46.585
+    ]
+   },
+   "properties": {
+    "id": "NEA-L46-18",
+    "name": "Bulgat",
+    "commodities": [
+     "Be"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     93.45556,
+     45.84722
+    ]
+   },
+   "properties": {
+    "id": "NEA-L46-19",
+    "name": "Khurdet",
+    "commodities": [
+     "Nb",
+     "REE"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     95.65556,
+     46.82222
+    ]
+   },
+   "properties": {
+    "id": "NEA-L46-2",
+    "name": "Khalzan uul",
+    "commodities": [
+     "Cr"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     93.35,
+     45.86667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L46-20",
+    "name": "North Khuld",
+    "commodities": [
+     "Be"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.5,
+     46.08333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L46-21",
+    "name": "Bodonch",
+    "commodities": [
+     "Muscovite"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.07083,
+     46.19667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L46-22",
+    "name": "Uench",
+    "commodities": [
+     "Be"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.96111,
+     45.30833
+    ]
+   },
+   "properties": {
+    "id": "NEA-L46-25",
+    "name": "Khaltar-uul I",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.88889,
+     45.28611
+    ]
+   },
+   "properties": {
+    "id": "NEA-L46-26",
+    "name": "Khaltar Uul II",
+    "commodities": [
+     "Au"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.96667,
+     45.25833
+    ]
+   },
+   "properties": {
+    "id": "NEA-L46-27",
+    "name": "Ereen Uul",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.88333,
+     46.09167
+    ]
+   },
+   "properties": {
+    "id": "NEA-L46-28",
+    "name": "Khuld",
+    "commodities": [
+     "Be"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     95.625,
+     46.51389
+    ]
+   },
+   "properties": {
+    "id": "NEA-L46-3",
+    "name": "Olgoi Tsagaan",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     94.86667,
+     46.46667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L46-4",
+    "name": "Alag Uul",
+    "commodities": [
+     "Asbestos"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.3,
+     47.51667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L46-5",
+    "name": "Burged",
+    "commodities": [
+     "Cu",
+     "Zn",
+     "Pb"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     93.58333,
+     46.74167
+    ]
+   },
+   "properties": {
+    "id": "NEA-L46-6",
+    "name": "Tsetserlegiin Nuruu",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     93.25,
+     46.50694
+    ]
+   },
+   "properties": {
+    "id": "NEA-L46-8",
+    "name": "Jadat khar",
+    "commodities": [
+     "Sn"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     93.36667,
+     46.46389
+    ]
+   },
+   "properties": {
+    "id": "NEA-L46-9",
+    "name": "Yargait",
+    "commodities": [
+     "Sn"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.8,
+     47.38333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-1",
+    "name": "Tomortolgoi",
+    "commodities": [
+     "Fe"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.6,
+     45.78333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-10",
+    "name": "Saran uul",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     99.4,
+     46.15
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-11",
+    "name": "Baidragiin gol",
+    "commodities": [
+     "Fe"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     96.45,
+     46.96667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-12",
+    "name": "Asgat uul",
+    "commodities": [
+     "Fe"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     98.7625,
+     46.09028
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-13",
+    "name": "Buutsagaan",
+    "commodities": [
+     "Cu",
+     "Au",
+     "Fe",
+     "Ag"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     96.21667,
+     46.88333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-14",
+    "name": "Ondor Tsoohor uul",
+    "commodities": [
+     "Mn"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     96.5,
+     46.66667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-15",
+    "name": "Bayangol 2",
+    "commodities": [
+     "P"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     99.48333,
+     45.33333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-16",
+    "name": "Ulaan Argalant",
+    "commodities": [
+     "Fe"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     96.66667,
+     46.23333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-17",
+    "name": "Bideriingol",
+    "commodities": [
+     "Cr"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.51667,
+     44.93333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-18",
+    "name": "Gegeenii ovoo uul",
+    "commodities": [
+     "Cr"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     96.66667,
+     46.21667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-19",
+    "name": "Biderin gol",
+    "commodities": [
+     "Magnesite"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     99.6,
+     47.83333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-2",
+    "name": "Zoogiin",
+    "commodities": [
+     "Fe"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     96.81667,
+     46.15
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-20",
+    "name": "Nergui",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     96.13333,
+     46.35
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-21",
+    "name": "Nogoon tolgoi",
+    "commodities": [
+     "Cr"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.35,
+     44.9
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-22",
+    "name": "Ikh nart",
+    "commodities": [
+     "Asbestos"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     96.5,
+     46.16667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-23",
+    "name": "Naran Davaa",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     96.18333,
+     46.25
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-24",
+    "name": "Taishir",
+    "commodities": [
+     "Asbestos"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     96.43333,
+     46.05
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-25",
+    "name": "Tsakhir khudag",
+    "commodities": [
+     "Cu",
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.30639,
+     44.74361
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-26",
+    "name": "Bayangovi district",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     96.25,
+     45.81667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-27",
+    "name": "Tsagaan gol",
+    "commodities": [
+     "Talc"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     96.93333,
+     45.46667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-28",
+    "name": "Sharturuutiin gol",
+    "commodities": [
+     "Mn"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     96.08333,
+     45.71667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-29",
+    "name": "Tahilgat uul",
+    "commodities": [
+     "Mn"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     99.36667,
+     47.85
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-3",
+    "name": "Khangai",
+    "commodities": [
+     "Fe"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     98.68333,
+     44.825
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-30",
+    "name": "Bayantsagaan 1",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     96.53333,
+     45.53333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-31",
+    "name": "Uhiin ovoo",
+    "commodities": [
+     "Fe"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     98.46667,
+     44.85
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-32",
+    "name": "Bayan Undur",
+    "commodities": [
+     "Ba"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     96.21667,
+     45.26667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-33",
+    "name": "Olgiibulag",
+    "commodities": [
+     "Mn"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     97.81111,
+     44.13889
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-34",
+    "name": "Khadat Gunii khudag",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     97.53333,
+     47.8
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-4",
+    "name": "Bogdyn Arshaan",
+    "commodities": [
+     "Fe"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     99.33333,
+     47.11667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-5",
+    "name": "Monhot",
+    "commodities": [
+     "Fe"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     99.6,
+     46.48333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-6",
+    "name": "Khokhbulgiin khondii",
+    "commodities": [
+     "Cu",
+     "Au"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     96.66667,
+     47.26667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-7",
+    "name": "Zuun-Arts",
+    "commodities": [
+     "P"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     96.61667,
+     47.25
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-8",
+    "name": "Baruun-Arts",
+    "commodities": [
+     "P"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.05,
+     46.08611
+    ]
+   },
+   "properties": {
+    "id": "NEA-L47-9",
+    "name": "Tsagaantsakhir Uul",
+    "commodities": [
+     "Au"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.66667,
+     47.66667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-1",
+    "name": "Ulaanburd",
+    "commodities": [
+     "Sn"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     102.23333,
+     47.88333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-10",
+    "name": "Oortsog",
+    "commodities": [
+     "Cu",
+     "Ni"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.95833,
+     45.77639
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-11",
+    "name": "Suul-Undur",
+    "commodities": [
+     "CaF2"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     102.16667,
+     47.625
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-12",
+    "name": "Tamirgol",
+    "commodities": [
+     "Fe"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.87917,
+     46.68333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-13",
+    "name": "Bayan Uul 2",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.01667,
+     46.25
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-14",
+    "name": "Baga Gazar",
+    "commodities": [
+     "Sn"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.96444,
+     46.18028
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-15",
+    "name": "Sharga Ovoo",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.79167,
+     45.41111
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-16",
+    "name": "Bilkh-Uul",
+    "commodities": [
+     "CaF2"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.65,
+     45.06667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-17",
+    "name": "Zulegt",
+    "commodities": [
+     "Graphite"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.96667,
+     45.21667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-18",
+    "name": "Kharmagtai 1",
+    "commodities": [
+     "Asbestos"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.6,
+     45.21667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-19",
+    "name": "Tumurtei",
+    "commodities": [
+     "Zn",
+     "Fe",
+     "Mo"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.6,
+     47.56667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-2",
+    "name": "Janchivlan (Buural khangai and Urt Gozgor)",
+    "commodities": [
+     "Ta"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.6,
+     44.55
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-20",
+    "name": "Modon-Us",
+    "commodities": [
+     "Gypsum"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.85861,
+     44.06139
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-21",
+    "name": "Khongoot",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.48333,
+     45.03333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-22",
+    "name": "Taragt",
+    "commodities": [
+     "Gypsum"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.33333,
+     45.03333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-23",
+    "name": "Shiree Uul (Taragt-2)",
+    "commodities": [
+     "Gypsum"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     105.43056,
+     44.31667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-24",
+    "name": "Dugshih hudag",
+    "commodities": [
+     "Sr"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.14444,
+     44.03194
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-25",
+    "name": "Kharmagtai 2",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.71667,
+     44.45
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-26",
+    "name": "Dorvon Dert",
+    "commodities": [
+     "Be"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.16167,
+     44.3725
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-27",
+    "name": "Olon Ovoot",
+    "commodities": [
+     "Au"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.05,
+     44.4
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-28",
+    "name": "Bayan Khoshuu",
+    "commodities": [
+     "Ba"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.05,
+     44.4
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-29",
+    "name": "Mushgai hudag",
+    "commodities": [
+     "REE"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.75,
+     47.05
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-3",
+    "name": "Bayan Ovoo",
+    "commodities": [
+     "Sn",
+     "W"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.11111,
+     44.34944
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-30",
+    "name": "Khorimt khudag",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.11667,
+     44.31667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-31",
+    "name": "Teg uul",
+    "commodities": [
+     "Be"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.66667,
+     44.11667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-32",
+    "name": "Khotgor",
+    "commodities": [
+     "REE"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     105.43333,
+     47.63333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-4",
+    "name": "Avdrant",
+    "commodities": [
+     "Ta"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.23333,
+     46.97222
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-5",
+    "name": "Chuluut tsagaan del",
+    "commodities": [
+     "CaF2"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.53333,
+     46.56667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-6",
+    "name": "Urt Gozgor",
+    "commodities": [
+     "Li",
+     "Ta"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     105.93333,
+     46.91667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-7",
+    "name": "Ikh Khairkhan",
+    "commodities": [
+     "W",
+     "Mo"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     105.16667,
+     47.05
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-8",
+    "name": "Ongon Khairhan",
+    "commodities": [
+     "W",
+     "Mo"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     105.16667,
+     47.05
+    ]
+   },
+   "properties": {
+    "id": "NEA-L48-9",
+    "name": "Ongon Khairkhan",
+    "commodities": [
+     "Ta",
+     "Li"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.95,
+     47.21667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-1",
+    "name": "Aryn nuur",
+    "commodities": [
+     "Mo"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.32222,
+     46.80278
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-10",
+    "name": "Tumurtiin-Ovoo",
+    "commodities": [
+     "Zn",
+     "Fe"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     110.18333,
+     47.83333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-11",
+    "name": "Mongon Ondor",
+    "commodities": [
+     "Ag"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.43333,
+     46.72667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-12",
+    "name": "Salaa",
+    "commodities": [
+     "W"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     110.16667,
+     47.75
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-13",
+    "name": "Tsagaan chuluut",
+    "commodities": [
+     "Mo"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     111.58333,
+     47.25
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-14",
+    "name": "Zaan shiree",
+    "commodities": [
+     "Sn"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.2,
+     47.93333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-15",
+    "name": "Bees",
+    "commodities": [
+     "W"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.08333,
+     47.83333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-16",
+    "name": "Modot",
+    "commodities": [
+     "Sn",
+     "W"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.21667,
+     47.76667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-17",
+    "name": "Khujkhan",
+    "commodities": [
+     "Sn",
+     "W"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.04722,
+     47.82222
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-18",
+    "name": "Bayan Mod",
+    "commodities": [
+     "Sn",
+     "W"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     111.71667,
+     46.71667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-19",
+    "name": "Baruuntsogt",
+    "commodities": [
+     "Ta"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.14167,
+     47.6375
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-2",
+    "name": "Tumen Tsogt",
+    "commodities": [
+     "W"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.76667,
+     47.28333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-20",
+    "name": "Tugalgatain nuruu",
+    "commodities": [
+     "Zn",
+     "Pb",
+     "Sn",
+     "Ag"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     110.97889,
+     46.56111
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-21",
+    "name": "Galshar",
+    "commodities": [
+     "CaF2"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.08333,
+     46.9
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-22",
+    "name": "Itgel Naidvar",
+    "commodities": [
+     "Graphite"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.89167,
+     46.26667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-23",
+    "name": "Khajuu Ulaan",
+    "commodities": [
+     "CaF2"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.55,
+     44.91667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-24",
+    "name": "Nars",
+    "commodities": [
+     "U"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.43611,
+     46.26389
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-25",
+    "name": "Bor-Undur",
+    "commodities": [
+     "CaF2"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.85,
+     46.01667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-26",
+    "name": "Khokh Del Uul",
+    "commodities": [
+     "Ta",
+     "Nb"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.32861,
+     45.81667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-27",
+    "name": "Khar Airag",
+    "commodities": [
+     "CaF2"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.59167,
+     45.675
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-28",
+    "name": "Ikh Nartyn Khiid",
+    "commodities": [
+     "CaF2"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.17139,
+     45.80833
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-29",
+    "name": "Bujgar",
+    "commodities": [
+     "CaF2"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.13333,
+     47.63333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-3",
+    "name": "Tumentsogt",
+    "commodities": [
+     "W"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.73333,
+     45.71667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-30",
+    "name": "Ikh Zelend",
+    "commodities": [
+     "W"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.3,
+     45.63333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-31",
+    "name": "Haraat",
+    "commodities": [
+     "U"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     110.75,
+     44.78333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-32",
+    "name": "Urgen 1",
+    "commodities": [
+     "Zeolite"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     110.73472,
+     44.70139
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-33",
+    "name": "Urgen 2",
+    "commodities": [
+     "CaF2"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.1,
+     45.56667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-34",
+    "name": "Oortsog ovoo",
+    "commodities": [
+     "Sn",
+     "Pb",
+     "Zn"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     110.08333,
+     44.8
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-35",
+    "name": "Tushleg",
+    "commodities": [
+     "Zeolite"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.75,
+     44.63333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-36",
+    "name": "Tsagaantsav",
+    "commodities": [
+     "Zeolite"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.47361,
+     44.58889
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-37",
+    "name": "Shine",
+    "commodities": [
+     "Au",
+     "Ag",
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.43583,
+     44.57417
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-38",
+    "name": "Oyuut Ulaan ovoo",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.71667,
+     44.28333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-39",
+    "name": "Unegt Uul",
+    "commodities": [
+     "Gypsum"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.12472,
+     47.50889
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-4",
+    "name": "Anas",
+    "commodities": [
+     "CaF2"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.03333,
+     44.23333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-40",
+    "name": "Nariin khudag",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     111.17083,
+     47.775
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-5",
+    "name": "Berkh 1",
+    "commodities": [
+     "CaF2"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.44028,
+     46.84028
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-6",
+    "name": "Khol khudag",
+    "commodities": [
+     "Zn",
+     "Fe",
+     "Mo"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     110.16667,
+     47.86667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-7",
+    "name": "Ondortsagan",
+    "commodities": [
+     "W",
+     "Mo"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.8,
+     47.98333
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-8",
+    "name": "Omnodelger",
+    "commodities": [
+     "Sn"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     110.18333,
+     47.85
+    ]
+   },
+   "properties": {
+    "id": "NEA-L49-9",
+    "name": "Mungon-Ondur",
+    "commodities": [
+     "Zn",
+     "Pb",
+     "Sn",
+     "Ag"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     117.33333,
+     46.69667
+    ]
+   },
+   "properties": {
+    "id": "NEA-L50-2",
+    "name": "Modon",
+    "commodities": [
+     "Pb",
+     "Ag"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.33333,
+     45.9
+    ]
+   },
+   "properties": {
+    "id": "NEA-L50-5",
+    "name": "Yugzer",
+    "commodities": [
+     "W",
+     "Mo"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     89.64167,
+     49.87222
+    ]
+   },
+   "properties": {
+    "id": "NEA-M45-16",
+    "name": "Asgat",
+    "commodities": [
+     "Ag",
+     "Sb"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     89.05,
+     49.26667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M45-30",
+    "name": "Khuren Khairkhan uul",
+    "commodities": [
+     "Ba"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     89.73944,
+     48.97278
+    ]
+   },
+   "properties": {
+    "id": "NEA-M45-32",
+    "name": "Toshint Uul",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     89.525,
+     49.0325
+    ]
+   },
+   "properties": {
+    "id": "NEA-M45-33",
+    "name": "Ulaan khus",
+    "commodities": [
+     "Hg"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     89.47778,
+     48.975
+    ]
+   },
+   "properties": {
+    "id": "NEA-M45-35",
+    "name": "Uzuurtolgoi",
+    "commodities": [
+     "Zn",
+     "Pb"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     89.54167,
+     48.80833
+    ]
+   },
+   "properties": {
+    "id": "NEA-M45-38",
+    "name": "Malachite",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     89.39167,
+     48.73333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M45-41",
+    "name": "Mushgu",
+    "commodities": [
+     "W",
+     "Sb"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     89.51,
+     48.67917
+    ]
+   },
+   "properties": {
+    "id": "NEA-M45-42",
+    "name": "Onhot uul",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     88.85,
+     48.73333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M45-45",
+    "name": "Khovd gol",
+    "commodities": [
+     "W",
+     "Sb"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     88.29722,
+     48.85
+    ]
+   },
+   "properties": {
+    "id": "NEA-M45-47",
+    "name": "Dungerekh",
+    "commodities": [
+     "Mo",
+     "W"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     89.7,
+     48.23333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M45-50",
+    "name": "Nominy Am",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.5,
+     50.66667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-14",
+    "name": "Shuden uul",
+    "commodities": [
+     "Halite"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     93.33333,
+     50.33333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-15",
+    "name": "Davst uul",
+    "commodities": [
+     "Halite"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     95.96667,
+     49.26667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-18",
+    "name": "Oyut tolgoi 2",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     95.3,
+     49.2
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-20",
+    "name": "Tsagdaltyn Davaa",
+    "commodities": [
+     "Ni"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     94.11667,
+     49.41667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-21",
+    "name": "Tomorchuluut",
+    "commodities": [
+     "Fe"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     93.95,
+     49.31667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-23",
+    "name": "Borts Uul",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     93.03333,
+     49.46667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-25",
+    "name": "Ulaantolgoi",
+    "commodities": [
+     "Zr",
+     "Nb",
+     "Ta",
+     "REE"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     94.44028,
+     48.72917
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-26",
+    "name": "Bayankhairkhan",
+    "commodities": [
+     "Au",
+     "Cu",
+     "Fe"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.85,
+     49.57111
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-27",
+    "name": "Yolochka",
+    "commodities": [
+     "Au",
+     "Cu",
+     "Fe"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     95.73889,
+     48.18333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-28",
+    "name": "Erdenekhairkhan",
+    "commodities": [
+     "Au",
+     "Cu",
+     "Fe"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.82111,
+     49.41944
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-29",
+    "name": "Khagarlyn",
+    "commodities": [
+     "Au",
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.71667,
+     49.08333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-30",
+    "name": "Shartolgoi",
+    "commodities": [
+     "Ta",
+     "Nb",
+     "Zr",
+     "Y"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     94.93333,
+     48.28333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-31",
+    "name": "Nukhet",
+    "commodities": [
+     "Zn",
+     "Pb"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.65,
+     49.35
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-32",
+    "name": "Namiryn gol",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.95333,
+     49.23111
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-33",
+    "name": "Gozgor",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.86,
+     49.54333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-34",
+    "name": "Achit nuur",
+    "commodities": [
+     "W"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.68333,
+     49.26667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-35",
+    "name": "Kupol",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.21667,
+     49.35
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-36",
+    "name": "Otor uul",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.05528,
+     49.40194
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-37",
+    "name": "Daltyn Khudag",
+    "commodities": [
+     "Sn"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.63333,
+     49.1
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-38",
+    "name": "Omnogobi",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.9375,
+     48.87778
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-39",
+    "name": "Khatuugiin",
+    "commodities": [
+     "REE",
+     "Zr",
+     "Ta"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.57611,
+     48.93944
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-40",
+    "name": "Umnu Khutel",
+    "commodities": [
+     "W",
+     "Mo"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.43333,
+     49.31667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-41",
+    "name": "Dulaan khar uul",
+    "commodities": [
+     "Ag",
+     "Pb",
+     "Zn"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.9,
+     48.78333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-42",
+    "name": "Bayanbulag",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.85,
+     48.7
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-43",
+    "name": "Khuren tolgoi",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.24222,
+     49.22417
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-44",
+    "name": "Ulaan uul",
+    "commodities": [
+     "W"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.20833,
+     49.21111
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-45",
+    "name": "Molybdenum Stockwork",
+    "commodities": [
+     "Mo",
+     "W"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.05,
+     49.18333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-46",
+    "name": "Tsunkheg",
+    "commodities": [
+     "W"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.01111,
+     48.85
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-47",
+    "name": "Maikhan Uul",
+    "commodities": [
+     "Ta",
+     "Nb",
+     "REE"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.91667,
+     48.5
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-48",
+    "name": "Tsakhir",
+    "commodities": [
+     "Nb",
+     "Ta"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.93333,
+     48.36667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-49",
+    "name": "Khalzanburegtei",
+    "commodities": [
+     "Nb",
+     "Zr"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.41056,
+     48.67806
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-50",
+    "name": "Teht",
+    "commodities": [
+     "Co"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     93.86667,
+     49.31667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-51",
+    "name": "Khyargas",
+    "commodities": [
+     "Au",
+     "Ag",
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.47361,
+     48.61944
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-51-2",
+    "name": "Sharbuureg",
+    "commodities": [
+     "Ag",
+     "Sb"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.15,
+     48.65
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-52",
+    "name": "Khatuugiin gol",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.25833,
+     48.58611
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-53",
+    "name": "Tolbo nuur",
+    "commodities": [
+     "Ag",
+     "Sb"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.31667,
+     48.4
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-54",
+    "name": "Tolbo",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.36667,
+     48.3
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-55",
+    "name": "Khukh-Adar",
+    "commodities": [
+     "Cu",
+     "Zn",
+     "Pb"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.71667,
+     50.41667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-56",
+    "name": "Baruun Tserd",
+    "commodities": [
+     "Gypsum"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.6,
+     49.45
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-58",
+    "name": "Khargait 2",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.19306,
+     48.67833
+    ]
+   },
+   "properties": {
+    "id": "NEA-M46-59",
+    "name": "Tsagaangol",
+    "commodities": [
+     "Co"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.1,
+     50.36667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-10",
+    "name": "Berhem uul",
+    "commodities": [
+     "P"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.0,
+     50.33333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-11",
+    "name": "Khargana gol",
+    "commodities": [
+     "Graphite"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.13333,
+     50.28333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-12",
+    "name": "Manhan uul",
+    "commodities": [
+     "P"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     99.61667,
+     50.36667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-13",
+    "name": "Duchin gol",
+    "commodities": [
+     "Al"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     99.35,
+     50.45
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-14",
+    "name": "Beltesin gol",
+    "commodities": [
+     "Al"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     99.71667,
+     50.26667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-15",
+    "name": "Uvurmaraat (Ujigin gol)",
+    "commodities": [
+     "Al"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.06667,
+     49.98333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-16",
+    "name": "Dalan",
+    "commodities": [
+     "P"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.05,
+     49.96667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-17",
+    "name": "Suultolgoi",
+    "commodities": [
+     "P"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     98.5,
+     50.33333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-18",
+    "name": "Altanboom",
+    "commodities": [
+     "Ta"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     99.95,
+     49.8
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-19",
+    "name": "Burenhan",
+    "commodities": [
+     "P"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.03333,
+     51.7
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-2",
+    "name": "Uhagol",
+    "commodities": [
+     "P"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     99.83333,
+     49.81667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-20",
+    "name": "Hitagiin gol",
+    "commodities": [
+     "V"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.05,
+     49.71667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-21",
+    "name": "Khanjargalant Uul",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     99.98333,
+     49.68333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-22",
+    "name": "Manganese",
+    "commodities": [
+     "Mn"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     99.66667,
+     49.68333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-23",
+    "name": "Tsagaan Tolgoi",
+    "commodities": [
+     "Mo"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.91667,
+     48.9
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-24",
+    "name": "Khoo Ulaan Uul",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.15,
+     51.18333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-3",
+    "name": "Uliin davaa",
+    "commodities": [
+     "P"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.41667,
+     48.71667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-33",
+    "name": "Zost tolgoi",
+    "commodities": [
+     "Cu",
+     "Mo"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     99.01667,
+     49.51667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-34",
+    "name": "Minjuurt tolgoi",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     98.72,
+     49.59278
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-36",
+    "name": "Tsagaan-Uul",
+    "commodities": [
+     "Zn",
+     "Pb"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     99.33333,
+     51.43333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-4",
+    "name": "Hogorgo",
+    "commodities": [
+     "P"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     99.83333,
+     48.61667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-49",
+    "name": "Salbart group",
+    "commodities": [
+     "Fe"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.26667,
+     51.11667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-5",
+    "name": "Khachim gol",
+    "commodities": [
+     "Fe"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     97.70667,
+     49.22222
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-50",
+    "name": "Skarn",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     96.725,
+     49.26667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-51",
+    "name": "Kharaat Uul",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     98.34167,
+     48.70833
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-52",
+    "name": "Zos Uul",
+    "commodities": [
+     "Cu",
+     "Mo"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     96.30556,
+     49.175
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-53",
+    "name": "Onts Uul",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     97.78333,
+     48.58333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-54",
+    "name": "Naran bulag",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     99.01667,
+     48.16667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-55",
+    "name": "Solongot",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     99.35,
+     48.05
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-56",
+    "name": "Most uul",
+    "commodities": [
+     "Fe"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     96.75833,
+     48.77778
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-57",
+    "name": "Takhilt nuur",
+    "commodities": [
+     "Cu",
+     "Ni"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     96.51667,
+     48.1
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-58",
+    "name": "Khagnuur",
+    "commodities": [
+     "Mn"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     99.38333,
+     51.23333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-6",
+    "name": "Tsagaan Nuur",
+    "commodities": [
+     "P"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.13333,
+     50.86667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-7",
+    "name": "Saihangol",
+    "commodities": [
+     "Mn"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.16667,
+     50.68333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-8",
+    "name": "Hubsugul",
+    "commodities": [
+     "P"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     100.08333,
+     50.68333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M47-9",
+    "name": "Bagatsagaan gol",
+    "commodities": [
+     "Mn"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.36667,
+     50.26667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-10",
+    "name": "Tarvagatai",
+    "commodities": [
+     "Au",
+     "Ag",
+     "Pb",
+     "Zn"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.18333,
+     49.63333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-11",
+    "name": "Oyuut Uul",
+    "commodities": [
+     "Mo",
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     105.61667,
+     49.81667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-12",
+    "name": "Bots",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.16667,
+     49.3
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-15",
+    "name": "Tomor tolgoi",
+    "commodities": [
+     "Fe"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     102.43333,
+     50.11667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-16",
+    "name": "Tavt",
+    "commodities": [
+     "Au",
+     "Ag",
+     "Cu"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     105.55,
+     49.06667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-17",
+    "name": "Serten",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     105.51667,
+     49.06667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-18",
+    "name": "Khotol",
+    "commodities": [
+     "Ni"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.68333,
+     49.28333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-19",
+    "name": "Baruunburen",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.53889,
+     48.64167
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-20",
+    "name": "Urt",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.15833,
+     48.7625
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-21",
+    "name": "Boroo 4",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.075,
+     48.78333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-22",
+    "name": "Boroo 7",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     102.48194,
+     49.97778
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-23",
+    "name": "Teshig 1",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.15,
+     48.75
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-24",
+    "name": "Boroo",
+    "commodities": [
+     "Au"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.5,
+     48.61667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-25",
+    "name": "Baavgait",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.51667,
+     48.57778
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-26",
+    "name": "Sujigt",
+    "commodities": [
+     "Au"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.91667,
+     49.06667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-27",
+    "name": "Serten-Nomgon",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.18333,
+     48.64167
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-28",
+    "name": "Tsagaanchuluut",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     105.93056,
+     48.575
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-29",
+    "name": "Narantolgoi",
+    "commodities": [
+     "Au"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     102.01667,
+     49.85
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-30",
+    "name": "Zalaat",
+    "commodities": [
+     "Asbestos"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.21667,
+     48.36667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-31",
+    "name": "Saikhan (Bor Khujir)",
+    "commodities": [
+     "W",
+     "Sn",
+     "Be"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.16389,
+     48.34444
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-32",
+    "name": "Bayantsagaan 1",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.13333,
+     49.0
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-33",
+    "name": "Erdenetiin Ovoo",
+    "commodities": [
+     "Cu",
+     "Mo"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.65,
+     49.13889
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-34",
+    "name": "Khujiryngol",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.06667,
+     48.18333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-35",
+    "name": "Tsagaan dabaa",
+    "commodities": [
+     "W",
+     "Mo"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.21667,
+     48.775
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-36",
+    "name": "Shand",
+    "commodities": [
+     "Cu",
+     "Mo"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.6,
+     48.875
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-37",
+    "name": "Zuunturuu gol",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     103.51667,
+     48.86667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-38",
+    "name": "Bulgan",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.55833,
+     48.27361
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-39",
+    "name": "Bumbat",
+    "commodities": [
+     "Au"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.42361,
+     48.10194
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-41",
+    "name": "Nariin-gol",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.525,
+     48.62222
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-5",
+    "name": "Ereen",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.26667,
+     49.68333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-6",
+    "name": "Tomortei",
+    "commodities": [
+     "Fe"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     107.01667,
+     49.6
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-7",
+    "name": "Bayangol 3",
+    "commodities": [
+     "Fe"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.64167,
+     49.64861
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-8",
+    "name": "Oyut tolgoi 3",
+    "commodities": [
+     "Fe",
+     "Cu",
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.36667,
+     50.26667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M48-9",
+    "name": "Bulagtai",
+    "commodities": [
+     "W",
+     "Mo"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.96667,
+     49.03333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M49-11",
+    "name": "Gurvanbulag",
+    "commodities": [
+     "U"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.70833,
+     49.3
+    ]
+   },
+   "properties": {
+    "id": "NEA-M49-12",
+    "name": "Baruunkhujirtyn gol",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.26667,
+     48.86667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M49-15",
+    "name": "Delberkhei bulag",
+    "commodities": [
+     "Au",
+     "Fe"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.53333,
+     48.73333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M49-16",
+    "name": "Narsan hundlun",
+    "commodities": [
+     "Sn"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.66667,
+     49.25
+    ]
+   },
+   "properties": {
+    "id": "NEA-M49-17",
+    "name": "Ikh-Khajuu",
+    "commodities": [
+     "Sn",
+     "W"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.58333,
+     49.16667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M49-18",
+    "name": "Zuuntartsgol",
+    "commodities": [
+     "W",
+     "Sn"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     109.08333,
+     49.33333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M49-19",
+    "name": "Upper Kumyr",
+    "commodities": [
+     "Sn",
+     "W"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     111.4625,
+     48.14306
+    ]
+   },
+   "properties": {
+    "id": "NEA-M49-20",
+    "name": "Bayanzurkh",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     111.36778,
+     48.03333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M49-21",
+    "name": "Khavtgai",
+    "commodities": [
+     "CaF2"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.4,
+     49.45833
+    ]
+   },
+   "properties": {
+    "id": "NEA-M49-4",
+    "name": "Tsagaanchuluut khudag II",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.81528,
+     49.26861
+    ]
+   },
+   "properties": {
+    "id": "NEA-M49-5",
+    "name": "Ugtam",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.03333,
+     49.45
+    ]
+   },
+   "properties": {
+    "id": "NEA-M49-7",
+    "name": "Emtinbulag",
+    "commodities": [
+     "Ba"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.70833,
+     49.18889
+    ]
+   },
+   "properties": {
+    "id": "NEA-M49-8",
+    "name": "Tsairyn",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     113.37222,
+     49.24722
+    ]
+   },
+   "properties": {
+    "id": "NEA-M49-9",
+    "name": "Bayandun",
+    "commodities": [
+     "Zn",
+     "Fe"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.68333,
+     50.16667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M50-42",
+    "name": "Baits Ovoo",
+    "commodities": [
+     "Zn",
+     "Pb",
+     "Ag"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.18333,
+     50.21667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M50-43",
+    "name": "Berkh 2",
+    "commodities": [
+     "Ta",
+     "Nb"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.10556,
+     50.21389
+    ]
+   },
+   "properties": {
+    "id": "NEA-M50-44",
+    "name": "Ulaan",
+    "commodities": [
+     "Zn",
+     "Pb",
+     "Ag"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.06667,
+     50.06667
+    ]
+   },
+   "properties": {
+    "id": "NEA-M50-45",
+    "name": "Khuts Ondor",
+    "commodities": [
+     "Sb"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.27083,
+     49.86556
+    ]
+   },
+   "properties": {
+    "id": "NEA-M50-46",
+    "name": "Bor Ondor",
+    "commodities": [
+     "Au",
+     "Ag"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.84444,
+     49.67083
+    ]
+   },
+   "properties": {
+    "id": "NEA-M50-47",
+    "name": "Avdartolgoi",
+    "commodities": [
+     "Cu",
+     "Mo"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.29583,
+     49.83889
+    ]
+   },
+   "properties": {
+    "id": "NEA-M50-48",
+    "name": "Ovorkhooloi",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.73056,
+     49.65
+    ]
+   },
+   "properties": {
+    "id": "NEA-M50-49",
+    "name": "Nomint",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.34167,
+     49.70833
+    ]
+   },
+   "properties": {
+    "id": "NEA-M50-50",
+    "name": "Chuluun Khoroot",
+    "commodities": [
+     "W",
+     "Mo"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.56389,
+     49.48889
+    ]
+   },
+   "properties": {
+    "id": "NEA-M50-51",
+    "name": "Erdenetolgoi",
+    "commodities": [
+     "Au",
+     "Cu",
+     "Fe"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.72917,
+     49.22222
+    ]
+   },
+   "properties": {
+    "id": "NEA-M50-54",
+    "name": "Zuun Dagai",
+    "commodities": [
+     "Au",
+     "As",
+     "Sb",
+     "Te"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.56667,
+     49.25
+    ]
+   },
+   "properties": {
+    "id": "NEA-M50-55",
+    "name": "Kharguit",
+    "commodities": [
+     "Au",
+     "As",
+     "Sb",
+     "Te"
+    ],
+    "type": "occurrence",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.71944,
+     49.17333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M50-56",
+    "name": "Urliin Ovoo",
+    "commodities": [
+     "Au",
+     "As",
+     "Sb",
+     "Te"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.62778,
+     48.85278
+    ]
+   },
+   "properties": {
+    "id": "NEA-M50-57",
+    "name": "Bayan uul 1",
+    "commodities": [
+     "Au",
+     "Ag",
+     "Pb",
+     "Zn"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     115.38333,
+     48.85
+    ]
+   },
+   "properties": {
+    "id": "NEA-M50-58",
+    "name": "Tsav",
+    "commodities": [
+     "Zn",
+     "Pb",
+     "Ag"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.48333,
+     49.13333
+    ]
+   },
+   "properties": {
+    "id": "NEA-M50-59",
+    "name": "Dornod",
+    "commodities": [
+     "U"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.1,
+     49.175
+    ]
+   },
+   "properties": {
+    "id": "NEA-M50-61",
+    "name": "Baruunsuuj Undur",
+    "commodities": [
+     "CaF2"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.3,
+     48.9
+    ]
+   },
+   "properties": {
+    "id": "NEA-M50-62",
+    "name": "Khuvoobulag",
+    "commodities": [
+     "CaF2"
+    ],
+    "type": "deposit",
+    "source": "USGS Northeast Asia deposits (OFR 03-220)",
+    "synthetic": false
+   }
+  }
+ ]
+}

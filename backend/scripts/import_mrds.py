@@ -2,7 +2,7 @@
 
 1. Download MRDS (https://mrdata.usgs.gov/mrds/) as CSV, or a filtered export
    for Mongolia.
-2. python -m scripts.import_mrds mrds.csv > data/occurrences.geojson
+2. python -m scripts.import_mrds mrds.csv > data/occurrences_mrds.geojson
    (or point CRITIORE_OCCURRENCES at the output file).
 
 Only sites inside the pilot region bbox are kept, unless --all is given.
