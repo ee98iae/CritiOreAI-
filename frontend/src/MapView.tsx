@@ -1,8 +1,15 @@
 import { useEffect, useRef } from "react";
 import maplibregl, { GeoJSONSource, Map as MlMap, StyleSpecification } from "maplibre-gl";
-import type { Region, Target } from "./api";
+import { getToken, LayerInfo, Region, Target, tileUrl } from "./api";
 
 export type Basemap = "streets" | "satellite";
+
+export interface RasterLayer {
+  region: string;
+  info: LayerInfo;
+  visible: boolean;
+  opacity: number;
+}
 
 const BASEMAPS: Record<Basemap, { tiles: string[]; attribution: string }> = {
   streets: {
@@ -37,6 +44,7 @@ interface Props {
   showGrid: boolean;
   showOccurrences: boolean;
   focus: { lat: number; lon: number } | null;
+  rasterLayers: RasterLayer[];
   onMapClick: (lat: number, lon: number) => void;
 }
 
@@ -83,6 +91,14 @@ export default function MapView(props: Props) {
       style: style(props.basemap),
       center: [91.7, 49.6],
       zoom: 7,
+      // Our own tile endpoints need the session token; basemap requests go out untouched.
+      transformRequest: (url) => {
+        const token = getToken();
+        if (token && url.startsWith(`${window.location.origin}/api/`)) {
+          return { url, headers: { Authorization: `Bearer ${token}` } };
+        }
+        return { url };
+      },
     });
     map.addControl(new maplibregl.NavigationControl(), "top-right");
     map.addControl(new maplibregl.ScaleControl({ unit: "metric" }), "bottom-right");
@@ -118,7 +134,7 @@ export default function MapView(props: Props) {
   useEffect(() => {
     const map = mapRef.current;
     if (map && ready.current) syncData(map, props);
-  }, [props.occurrences, props.grid, props.showGrid, props.showOccurrences]);
+  }, [props.occurrences, props.grid, props.showGrid, props.showOccurrences, props.rasterLayers]);
 
   // Ranked targets are HTML markers, so their labels need no remote font glyphs.
   useEffect(() => {
@@ -158,7 +174,29 @@ export default function MapView(props: Props) {
   return <div ref={container} className="map" />;
 }
 
+// Raster layers sit under the prospectivity grid and occurrences. Each new one is inserted just
+// below the grid, so later layers in the manifest (terrain, imagery, then alteration) draw on top.
+function syncRasters(map: MlMap, layers: RasterLayer[]) {
+  for (const l of layers) {
+    const id = `raster-${l.info.id}`;
+    if (!map.getSource(id)) {
+      map.addSource(id, {
+        type: "raster",
+        tiles: [tileUrl(l.region, l.info.id)],
+        tileSize: 256,
+        bounds: l.info.bounds,
+        maxzoom: 14,
+        attribution: l.info.source,
+      });
+      map.addLayer({ id, type: "raster", source: id, paint: { "raster-opacity": l.opacity } }, "grid");
+    }
+    map.setLayoutProperty(id, "visibility", l.visible ? "visible" : "none");
+    map.setPaintProperty(id, "raster-opacity", l.opacity);
+  }
+}
+
 function syncData(map: MlMap, p: Props) {
+  syncRasters(map, p.rasterLayers);
   (map.getSource("grid") as GeoJSONSource | undefined)?.setData(p.grid ?? EMPTY);
   (map.getSource("occurrences") as GeoJSONSource | undefined)?.setData(p.occurrences ?? EMPTY);
   if (map.getLayer("grid")) map.setLayoutProperty("grid", "visibility", p.showGrid ? "visible" : "none");
