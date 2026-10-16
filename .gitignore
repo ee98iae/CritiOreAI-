@@ -6,3 +6,4 @@ dist/
 *.log
 .env
 backend/data/raw/
+backend/out/
