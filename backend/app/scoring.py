@@ -21,7 +21,8 @@ RELATED = {
     "Ni": {"Co", "Cu"},
     "Co": {"Ni", "Cu"},
     "Au": {"Cu"},
-    "Mo": {"Cu"},
+    "Mo": {"Cu", "W"},
+    "W": {"Mo", "Sn"},
 }
 SIGMA_KM = 8.0
 EVIDENCE_LIMIT = 5
