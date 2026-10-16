@@ -7,7 +7,7 @@ This is milestone 1 of the [MVP spec](https://claude.ai/code/artifact/24394e42-2
 real satellite and terrain layers for the pilot area, a signed-in web map, and
 a **placeholder** prospectivity model that the real ML model will replace.
 
-![Map viewer](docs/screenshot.png)
+![Map viewer with the iron-oxide layer over hillshade](docs/m1-layers.png)
 
 ## What works today
 
