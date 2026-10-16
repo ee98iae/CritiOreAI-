@@ -10,7 +10,9 @@ from dataclasses import dataclass
 from functools import lru_cache
 from pathlib import Path
 
-DEFAULT_PATH = Path(__file__).resolve().parent.parent / "data" / "occurrences.geojson"
+DATA_DIR = Path(__file__).resolve().parent.parent / "data"
+DEFAULT_PATH = DATA_DIR / "occurrences_neasia_mongolia.geojson"
+DEMO_PATH = DATA_DIR / "occurrences_demo.geojson"
 
 
 @dataclass(frozen=True)

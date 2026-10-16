@@ -4,7 +4,7 @@ These points are NOT real mineral occurrences. They exist so the map, API and
 scoring endpoint have something to work with until the Soviet archive digitiser
 and public datasets (see import_mrds.py) are loaded.
 
-Usage (from backend/): python -m scripts.generate_demo_data > data/occurrences.geojson
+Usage (from backend/): python -m scripts.generate_demo_data > data/occurrences_demo.geojson
 """
 
 import json
