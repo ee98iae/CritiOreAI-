@@ -123,22 +123,24 @@ def rank_scenes(scenes: list[Scene], max_nodata_pct: float = 20.0) -> list[Scene
     return sorted(full, key=key) + sorted(partial, key=key)
 
 
-def effective_offset(dn: np.ndarray, scale: float, offset: float) -> float:
-    """The offset to apply to these DNs.
+def offset_already_removed(dns: dict[str, np.ndarray], scales: dict[str, float], offsets: dict[str, float]) -> bool:
+    """Whether a scene's DNs have had the baseline-04.00 offset removed already.
 
     Since processing baseline 04.00 the L2A DNs carry a +1000 offset and the
-    STAC item says offset -0.1. The COGs in this bucket have been seen with
-    that offset already removed while the metadata still lists it (blue-band
-    DNs well under 1000 over bare ground). Real reflectance can't be negative,
-    so if more than 1% of pixels would come out below zero, the offset has
-    already been applied and is skipped.
+    STAC item lists offset -0.1. The COGs in this bucket have been seen with
+    the offset already removed while the metadata still lists it. Reflectance
+    can't be negative, so if any band would put more than 1% of its pixels
+    below zero, the offset is already gone. The answer applies to every band of
+    the scene: deciding per band would shift some bands by 0.1 and not others,
+    which corrupts every ratio between them.
     """
-    if offset >= 0:
-        return offset
-    valid = dn[np.isfinite(dn) & (dn > 0)]
-    if valid.size and np.mean(valid * scale + offset < 0) > 0.01:
-        return 0.0
-    return offset
+    for band, dn in dns.items():
+        if offsets[band] >= 0:
+            continue
+        valid = dn[np.isfinite(dn) & (dn > 0)]
+        if valid.size and np.mean(valid * scales[band] + offsets[band] < 0) > 0.01:
+            return True
+    return False
 
 
 def read_scene(scene: Scene, grid: Grid) -> dict[str, np.ndarray] | None:
@@ -149,16 +151,20 @@ def read_scene(scene: Scene, grid: Grid) -> dict[str, np.ndarray] | None:
     bad = np.isnan(scl) | np.isin(scl, SCL_BAD)
     if bad.all():
         return None
-    out = {}
+    dns = {}
     for band, (_, native_m) in BANDS.items():
         dn = read_onto_grid(scene.band_url(band), grid, native_m=native_m)
         if dn is None:
             return None
-        scale, listed = scene.scale_offset(band)
-        offset = effective_offset(dn, scale, listed)
-        if offset != listed:
-            log.info("%s %s: DNs already harmonised, ignoring listed offset %s", scene.id, band, listed)
-        refl = dn * scale + offset
+        dns[band] = dn
+    scales = {b: scene.scale_offset(b)[0] for b in BANDS}
+    offsets = {b: scene.scale_offset(b)[1] for b in BANDS}
+    if offset_already_removed(dns, scales, offsets):
+        log.info("%s: offset already removed from DNs, ignoring the listed offset", scene.id)
+        offsets = {b: 0.0 for b in BANDS}
+    out = {}
+    for band, dn in dns.items():
+        refl = dn * scales[band] + offsets[band]
         refl[bad | (dn <= 0)] = np.nan
         out[band] = refl.astype("float32")
     return out

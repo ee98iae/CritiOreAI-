@@ -103,14 +103,15 @@ def test_stretch_ignores_nan():
     assert stretch(arr) == (2.0, 98.0)
 
 
-def test_offset_skipped_when_dns_already_harmonised():
-    # Blue DNs around 700-1300: applying -0.1 would make many negative.
-    harmonised = np.linspace(683, 1369, 100)
-    assert sentinel2.effective_offset(harmonised, 0.0001, -0.1) == 0.0
-    # DNs that still carry the +1000 offset keep it.
-    raw = harmonised + 1000
-    assert sentinel2.effective_offset(raw, 0.0001, -0.1) == -0.1
-    assert sentinel2.effective_offset(raw, 0.0001, 0.0) == 0.0
+def test_offset_decided_once_per_scene():
+    scales = {"B02": 0.0001, "B12": 0.0001}
+    offsets = {"B02": -0.1, "B12": -0.1}
+    # Blue DNs around 700-1300 would go negative with the offset; bright SWIR alone would not.
+    harmonised = {"B02": np.linspace(683, 1369, 100), "B12": np.linspace(1500, 3500, 100)}
+    assert sentinel2.offset_already_removed(harmonised, scales, offsets)
+    raw = {b: v + 1000 for b, v in harmonised.items()}
+    assert not sentinel2.offset_already_removed(raw, scales, offsets)
+    assert not sentinel2.offset_already_removed(harmonised, scales, {"B02": 0.0, "B12": 0.0})
 
 
 def test_ratios_ignore_dark_pixels():
