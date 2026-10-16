@@ -9,3 +9,4 @@ dist/
 backend/data/layers/
 # Login accounts with password hashes.
 backend/data/users.json
+backend/data/raw/

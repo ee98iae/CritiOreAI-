@@ -4,8 +4,13 @@ import os
 import numpy as np
 import pytest
 
+from app.data import DEMO_PATH
+
 # Must be set before the app reads them.
 os.environ.setdefault("CRITIORE_SECRET", "test-secret")
+# The API tests assert on the synthetic demo set, which has known Ni/Co/Cu sites.
+# test_real_data.py checks the real default file separately.
+os.environ["CRITIORE_OCCURRENCES"] = str(DEMO_PATH)
 
 TEAM = ("team@critiore.test", "team-password-1")
 CLIENT = ("client@miner.test", "client-password-1")
