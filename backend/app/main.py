@@ -11,7 +11,7 @@ from .data import Occurrence, load_occurrences
 from .regions import PILOT_REGION, REGIONS
 from .scoring import MODEL_VERSION, Cell, Score, rank_targets, score_grid, score_point
 
-Commodity = Literal["Cu", "Ni", "Co", "Au", "Mo"]
+Commodity = Literal["Cu", "W", "Au", "Mo", "Ni", "Co"]
 
 app = FastAPI(title="CritiOre AI API", version="0.2.0")
 # Everything except health and login needs a signed-in user.

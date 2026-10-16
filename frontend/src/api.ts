@@ -1,4 +1,4 @@
-export type Commodity = "Cu" | "Ni" | "Co" | "Au" | "Mo";
+export type Commodity = "Cu" | "W" | "Au" | "Mo" | "Ni" | "Co";
 
 export interface Region {
   id: string;

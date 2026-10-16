@@ -16,8 +16,16 @@ import {
 import Login from "./Login";
 import MapView, { Basemap, RasterLayer } from "./MapView";
 
-const COMMODITIES: Commodity[] = ["Cu", "Ni", "Co", "Au", "Mo"];
-const NAMES: Record<Commodity, string> = { Cu: "Copper", Ni: "Nickel", Co: "Cobalt", Au: "Gold", Mo: "Molybdenum" };
+// Pilot commodities: where the real deposit data is. The API still accepts Ni and Co.
+const COMMODITIES: Commodity[] = ["Cu", "W", "Au", "Mo"];
+const NAMES: Record<Commodity, string> = {
+  Cu: "Copper",
+  W: "Tungsten",
+  Au: "Gold",
+  Mo: "Molybdenum",
+  Ni: "Nickel",
+  Co: "Cobalt",
+};
 
 export default function App() {
   const [user, setUser] = useState<User | null>(null);

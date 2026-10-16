@@ -14,7 +14,8 @@ PILOT_REGION = Region(
     id="kharkhiraa",
     name="Kharkhiraa uplands, Western Mongolia (pilot)",
     bbox=(48.8, 90.6, 50.4, 92.8),
-    commodities=("Cu", "Ni", "Co"),
+    # Where the real deposit data is; Ni/Co are too sparse in western Mongolia.
+    commodities=("Cu", "W", "Au", "Mo"),
 )
 
 REGIONS = {PILOT_REGION.id: PILOT_REGION}

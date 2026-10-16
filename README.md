@@ -1,7 +1,7 @@
 # CritiOre AI — MVP
 
 GeoAI platform that ranks where to drill for critical minerals, starting with the
-Kharkhiraa uplands pilot in Western Mongolia (Cu, Ni, Co). See the PRD for scope.
+Kharkhiraa uplands pilot in Western Mongolia (Cu, W, Au, Mo). See the PRD for scope.
 
 This is milestone 1 of the [MVP spec](https://claude.ai/code/artifact/24394e42-2f99-4d01-93e1-949f5aa98ac2):
 real satellite and terrain layers for the pilot area, a signed-in web map, and
