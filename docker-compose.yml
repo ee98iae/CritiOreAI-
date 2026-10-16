@@ -1,0 +1,15 @@
+services:
+  api:
+    build: ./backend
+    ports: ["8000:8000"]
+    environment:
+      CRITIORE_CORS_ORIGINS: http://localhost:5173
+  web:
+    image: node:22-slim
+    working_dir: /app
+    command: sh -c "npm ci && npx vite --host 0.0.0.0 --port 5173"
+    volumes: ["./frontend:/app", "/app/node_modules"]
+    ports: ["5173:5173"]
+    environment:
+      VITE_API_PROXY: http://api:8000
+    depends_on: [api]

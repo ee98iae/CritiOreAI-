@@ -1,0 +1,1469 @@
+{
+ "type": "FeatureCollection",
+ "name": "critiore-demo-occurrences",
+ "note": "SYNTHETIC DEMO DATA - not real mineral occurrences.",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.31278,
+     49.50771
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0001",
+    "name": "Demo site 1",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.42568,
+     49.45302
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0002",
+    "name": "Demo site 2",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "deposit",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.38265,
+     49.48954
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0003",
+    "name": "Demo site 3",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.50261,
+     49.47413
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0004",
+    "name": "Demo site 4",
+    "commodities": [
+     "Cu",
+     "Au"
+    ],
+    "type": "deposit",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.59122,
+     49.56597
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0005",
+    "name": "Demo site 5",
+    "commodities": [
+     "Cu",
+     "Au"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.33312,
+     49.61204
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0006",
+    "name": "Demo site 6",
+    "commodities": [
+     "Cu",
+     "Au"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.37351,
+     49.70081
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0007",
+    "name": "Demo site 7",
+    "commodities": [
+     "Cu",
+     "Mo",
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.48548,
+     49.44464
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0008",
+    "name": "Demo site 8",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.57095,
+     49.74313
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0009",
+    "name": "Demo site 9",
+    "commodities": [
+     "Cu",
+     "Mo",
+     "Au"
+    ],
+    "type": "deposit",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.94146,
+     49.07425
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0010",
+    "name": "Demo site 10",
+    "commodities": [
+     "Ni",
+     "Co"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.08862,
+     49.29201
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0011",
+    "name": "Demo site 11",
+    "commodities": [
+     "Ni",
+     "Cu",
+     "Co"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.9281,
+     49.18916
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0012",
+    "name": "Demo site 12",
+    "commodities": [
+     "Ni",
+     "Cu",
+     "Co"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.74208,
+     49.14194
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0013",
+    "name": "Demo site 13",
+    "commodities": [
+     "Ni",
+     "Cu",
+     "Co"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.89868,
+     49.27376
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0014",
+    "name": "Demo site 14",
+    "commodities": [
+     "Ni",
+     "Co"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.96298,
+     49.25351
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0015",
+    "name": "Demo site 15",
+    "commodities": [
+     "Ni",
+     "Co"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.92374,
+     49.25254
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0016",
+    "name": "Demo site 16",
+    "commodities": [
+     "Ni",
+     "Cu",
+     "Co"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.90819,
+     49.11926
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0017",
+    "name": "Demo site 17",
+    "commodities": [
+     "Ni"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.9174,
+     49.23065
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0018",
+    "name": "Demo site 18",
+    "commodities": [
+     "Ni",
+     "Cu"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.91088,
+     49.02536
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0019",
+    "name": "Demo site 19",
+    "commodities": [
+     "Ni"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.78307,
+     49.25797
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0020",
+    "name": "Demo site 20",
+    "commodities": [
+     "Ni",
+     "Cu"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.8873,
+     49.07685
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0021",
+    "name": "Demo site 21",
+    "commodities": [
+     "Ni"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.94546,
+     49.20562
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0022",
+    "name": "Demo site 22",
+    "commodities": [
+     "Ni",
+     "Co"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.82738,
+     49.32551
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0023",
+    "name": "Demo site 23",
+    "commodities": [
+     "Ni",
+     "Co"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.9465,
+     49.9922
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0024",
+    "name": "Demo site 24",
+    "commodities": [
+     "Cu",
+     "Co"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.03875,
+     50.02231
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0025",
+    "name": "Demo site 25",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.99583,
+     50.03503
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0026",
+    "name": "Demo site 26",
+    "commodities": [
+     "Cu",
+     "Co"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.18489,
+     50.02643
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0027",
+    "name": "Demo site 27",
+    "commodities": [
+     "Cu",
+     "Co"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.0089,
+     49.87968
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0028",
+    "name": "Demo site 28",
+    "commodities": [
+     "Cu",
+     "Co"
+    ],
+    "type": "deposit",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.02895,
+     50.0514
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0029",
+    "name": "Demo site 29",
+    "commodities": [
+     "Cu",
+     "Co"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.04832,
+     50.07002
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0030",
+    "name": "Demo site 30",
+    "commodities": [
+     "Cu",
+     "Co"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.94779,
+     49.84893
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0031",
+    "name": "Demo site 31",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.21101,
+     49.94815
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0032",
+    "name": "Demo site 32",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.06167,
+     50.00852
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0033",
+    "name": "Demo site 33",
+    "commodities": [
+     "Cu",
+     "Co"
+    ],
+    "type": "deposit",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.13052,
+     50.02747
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0034",
+    "name": "Demo site 34",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.07659,
+     49.92905
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0035",
+    "name": "Demo site 35",
+    "commodities": [
+     "Cu",
+     "Co"
+    ],
+    "type": "deposit",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.13818,
+     49.09721
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0036",
+    "name": "Demo site 36",
+    "commodities": [
+     "Au",
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.15474,
+     49.2511
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0037",
+    "name": "Demo site 37",
+    "commodities": [
+     "Au",
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.18634,
+     49.03142
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0038",
+    "name": "Demo site 38",
+    "commodities": [
+     "Au",
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.28934,
+     48.97723
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0039",
+    "name": "Demo site 39",
+    "commodities": [
+     "Au"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.1316,
+     49.02973
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0040",
+    "name": "Demo site 40",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.49918,
+     49.11565
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0041",
+    "name": "Demo site 41",
+    "commodities": [
+     "Au",
+     "Cu"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.52066,
+     49.01037
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0042",
+    "name": "Demo site 42",
+    "commodities": [
+     "Au"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.33517,
+     49.07122
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0043",
+    "name": "Demo site 43",
+    "commodities": [
+     "Au",
+     "Cu"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.44503,
+     48.97732
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0044",
+    "name": "Demo site 44",
+    "commodities": [
+     "Au",
+     "Cu"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.28892,
+     49.02443
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0045",
+    "name": "Demo site 45",
+    "commodities": [
+     "Au",
+     "Cu"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.13343,
+     50.16505
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0046",
+    "name": "Demo site 46",
+    "commodities": [
+     "Ni",
+     "Co"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.11511,
+     50.10667
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0047",
+    "name": "Demo site 47",
+    "commodities": [
+     "Ni"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.54099,
+     50.23136
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0048",
+    "name": "Demo site 48",
+    "commodities": [
+     "Ni"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.25292,
+     50.23396
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0049",
+    "name": "Demo site 49",
+    "commodities": [
+     "Ni",
+     "Co"
+    ],
+    "type": "deposit",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.22685,
+     50.07678
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0050",
+    "name": "Demo site 50",
+    "commodities": [
+     "Ni"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.28449,
+     50.21575
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0051",
+    "name": "Demo site 51",
+    "commodities": [
+     "Ni",
+     "Co"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.33772,
+     50.16666
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0052",
+    "name": "Demo site 52",
+    "commodities": [
+     "Ni",
+     "Co"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.23148,
+     50.14639
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0053",
+    "name": "Demo site 53",
+    "commodities": [
+     "Ni"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.22509,
+     50.12716
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0054",
+    "name": "Demo site 54",
+    "commodities": [
+     "Ni"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.38025,
+     50.17515
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0055",
+    "name": "Demo site 55",
+    "commodities": [
+     "Ni",
+     "Co"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.15062,
+     50.18904
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0056",
+    "name": "Demo site 56",
+    "commodities": [
+     "Ni"
+    ],
+    "type": "occurrence",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.32762,
+     49.99452
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0057",
+    "name": "Demo site 57",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.87492,
+     49.61581
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0058",
+    "name": "Demo site 58",
+    "commodities": [
+     "Ni"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.00666,
+     49.20385
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0059",
+    "name": "Demo site 59",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.80128,
+     49.90865
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0060",
+    "name": "Demo site 60",
+    "commodities": [
+     "Au"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.38787,
+     49.84278
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0061",
+    "name": "Demo site 61",
+    "commodities": [
+     "Co"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.5235,
+     49.63886
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0062",
+    "name": "Demo site 62",
+    "commodities": [
+     "Ni"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.40134,
+     50.38657
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0063",
+    "name": "Demo site 63",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.74933,
+     50.08398
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0064",
+    "name": "Demo site 64",
+    "commodities": [
+     "Ni"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.45623,
+     50.08728
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0065",
+    "name": "Demo site 65",
+    "commodities": [
+     "Mo"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.21981,
+     49.13763
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0066",
+    "name": "Demo site 66",
+    "commodities": [
+     "Co"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.40144,
+     49.01437
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0067",
+    "name": "Demo site 67",
+    "commodities": [
+     "Co"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.76822,
+     49.38484
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0068",
+    "name": "Demo site 68",
+    "commodities": [
+     "Co"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     92.70903,
+     49.71224
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0069",
+    "name": "Demo site 69",
+    "commodities": [
+     "Mo"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     91.54889,
+     50.232
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0070",
+    "name": "Demo site 70",
+    "commodities": [
+     "Cu"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:50,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     90.87729,
+     50.21059
+    ]
+   },
+   "properties": {
+    "id": "DEMO-0071",
+    "name": "Demo site 71",
+    "commodities": [
+     "Ni"
+    ],
+    "type": "showing",
+    "source": "Soviet 1:200,000 sheet (placeholder)",
+    "synthetic": true
+   }
+  }
+ ]
+}
