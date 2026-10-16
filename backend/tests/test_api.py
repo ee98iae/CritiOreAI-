@@ -61,12 +61,12 @@ def test_related_commodity_counts_half():
     assert 0 < related.score < direct.score
 
 
-def test_pilot_region_commodities():
-    region = client.get("/api/regions").json()[0]
+def test_pilot_region_commodities(client, team):
+    region = client.get("/api/regions", headers=team).json()[0]
     assert region["commodities"] == ["Cu", "W", "Au", "Mo"]
 
 
-def test_tungsten_targets():
-    body = client.get("/api/targets", params={"commodity": "W", "limit": 3})
+def test_tungsten_targets(client, team):
+    body = client.get("/api/targets", params={"commodity": "W", "limit": 3}, headers=team)
     assert body.status_code == 200
     assert body.json()["targets"]
