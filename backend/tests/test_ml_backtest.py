@@ -42,3 +42,23 @@ def test_site_rank_is_share_of_area_scoring_higher():
 
 def test_hit_rate_ignores_sites_without_data():
     assert hit_rate([0.05, 0.5, float("nan")]) == 0.5
+
+
+def test_lineaments_find_a_straight_valley_and_contacts_find_boundaries():
+    from ml.structure import contacts, lineaments
+
+    from scipy import ndimage
+
+    yy, xx = np.mgrid[0:200, 0:200].astype(float)
+    hills = ndimage.gaussian_filter(np.random.default_rng(0).normal(0, 1, (200, 200)), 6)
+    dem = 1000 + 0.5 * xx + 400 * hills
+    dem -= 60 * np.exp(-((xx - 100) ** 2) / (2 * 3.0**2))  # straight N-S valley at x = 100
+    lin = lineaments(dem, 0.1, 0.1)
+    near = np.abs(xx - 100) <= 6
+    assert lin[near].any(axis=None) and np.mean(lin[:, 94:107].any(axis=1)) > 0.8  # traced along its length
+    assert lin[near].mean() > 5 * lin[~near].mean()  # and far denser than anywhere else
+
+    groups = np.zeros((10, 10), np.int16)
+    groups[:, 5:] = 1
+    c = contacts(groups)
+    assert c[:, 4].all() and c.sum() == 10

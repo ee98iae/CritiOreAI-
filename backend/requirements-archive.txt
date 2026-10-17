@@ -1,0 +1,4 @@
+-r requirements-dev.txt
+anthropic==1.15.0
+pydantic==2.14.1
+pypdfium2==5.13.0

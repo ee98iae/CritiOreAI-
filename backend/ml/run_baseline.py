@@ -36,6 +36,7 @@ from .features import build_stack
 # Cu alone, and the porphyry / skarn family the pilot targets (Cu, Mo, Au, W occur together).
 GROUPS = {"Cu": {"Cu"}, "Cu-Mo-Au-W": {"Cu", "Mo", "Au", "W"}}
 MODEL_VERSION = "gbt-baseline-v0"
+STRUCTURE_MODEL_VERSION = "gbt-structure-v1"
 
 
 def sites_for(commodities: set[str]) -> list[Site]:
@@ -66,13 +67,14 @@ def main() -> None:
     ap.add_argument("--out", type=Path, required=True)
     ap.add_argument("--res", type=float, default=0.005, help="model cell size in degrees")
     ap.add_argument("--seeds", type=int, default=3, help="repeat with this many background samples")
+    ap.add_argument("--structure", action="store_true", help="add DEM lineament and rock-type layers")
     args = ap.parse_args()
 
-    stack = build_stack(args.layers, args.res)
+    stack = build_stack(args.layers, args.res, structure=args.structure)
     print(f"grid {stack.grid.shape}, {len(stack.names)} features, {stack.valid.mean():.0%} valid")
     args.out.mkdir(parents=True, exist_ok=True)
     report = {
-        "model_version": MODEL_VERSION,
+        "model_version": STRUCTURE_MODEL_VERSION if args.structure else MODEL_VERSION,
         "built_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "region": PILOT_REGION.id,
         "cell_deg": args.res,
