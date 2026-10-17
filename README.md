@@ -35,6 +35,12 @@ gate (70% of known deposits in the top 10% of the area). Copper scores **62%**
 (placeholder 50%, random 10%). See [docs/prospectivity-baseline.md](docs/prospectivity-baseline.md).
 It is not wired into the API yet.
 
+## Soviet archive digitiser
+
+`backend/archive/` reads scanned Soviet survey reports with Claude, extracts every
+deposit and occurrence into a fixed schema, and places them by printed coordinates,
+a name match, or their map sheet. See [docs/archive-digitiser.md](docs/archive-digitiser.md).
+
 ## Run it
 
 Requires Python 3.11+ and Node 20+.

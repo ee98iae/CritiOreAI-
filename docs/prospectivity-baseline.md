@@ -62,6 +62,30 @@ alteration in rugged ground, with one caution: mean elevation partly works as a
 3. Then switch the back-test to spatial blocks and wire the model into
    `/api/prospectivity` behind the same score, confidence and evidence contract.
 
+## Experiment: structure and rock-type layers (17 Oct 2026)
+
+`--structure` adds layers derived from the same DEM and Sentinel-2 data
+(`backend/ml/structure.py`), as a stand-in for mapped geology:
+
+- **Lineaments**: long, straight valley segments in the DEM (concave curvature plus
+  gradient coherence, segments at least 1.5 km long and 3x longer than wide), giving
+  lineament density and distance to the nearest lineament.
+- **Rock-type groups**: 8 unsupervised clusters of brightness-normalised Sentinel-2
+  spectra, giving the share of each group around a cell and the density of contacts
+  between groups.
+
+| Group | Sites | Baseline | + structure | Proximity |
+| --- | --- | --- | --- | --- |
+| Cu | 8 | 62% | 58% (62, 62, 50 over 3 samples) | 50% |
+| Cu-Mo-Au-W | 10 | 60% | 63% (60, 70, 60) | 30% |
+
+**No real change**: both moves are one site in one background sample. None of the
+lineament or contact features reaches the model's top 10; one rock-group share does.
+The proxies are too weak to stand in for mapped intrusions, faults and geophysics, so
+they stay off by default. The real layers (EMAG2 magnetics, WGM2012 gravity, USGS and
+Soviet geology) need network access this project's cloud environment does not have
+yet, or files downloaded by hand.
+
 ## Reproduce
 
 ```bash

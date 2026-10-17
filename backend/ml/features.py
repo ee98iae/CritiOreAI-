@@ -79,7 +79,7 @@ def add_context(base: dict[str, np.ndarray], windows=WINDOWS) -> dict[str, np.nd
     return out
 
 
-def build_stack(layers_dir: Path, res: float = 0.005) -> Stack:
+def build_stack(layers_dir: Path, res: float = 0.005, structure: bool = False) -> Stack:
     layers_dir = Path(layers_dir)
     import rasterio
 
@@ -97,6 +97,16 @@ def build_stack(layers_dir: Path, res: float = 0.005) -> Stack:
         base[f"s2_{band}"] = s2[i]
 
     feats = add_context(base)
+    if structure:
+        from .structure import structure_layers
+
+        extra = structure_layers(layers_dir, shape, res, (b.top + b.bottom) / 2)
+        groups = {n: a for n, a in extra.items() if n.startswith("rock_group_")}
+        feats.update(add_context({n: a for n, a in extra.items() if n not in groups}))
+        # Rock-group shares only need the neighbourhood mean, not spread and anomaly.
+        for n, a in groups.items():
+            feats[n] = a
+            feats[f"{n}_mean9"] = _nanmean_filter(a, 9)
     names = list(feats)
     values = np.stack([feats[n] for n in names], axis=-1)
     valid = np.isfinite(base["elevation"]) & np.isfinite(base["s2_B04"])
