@@ -27,6 +27,14 @@ prospectivity model that the real ML model will replace.
 > started with is kept as `backend/data/occurrences_demo.geojson` and is what the
 > tests run against.
 
+## Prospectivity baseline
+
+`backend/ml/` holds the first trained model: gradient-boosted trees on the Sentinel-2
+and DEM evidence layers, with a blind leave-one-site-out back-test against the PRD
+gate (70% of known deposits in the top 10% of the area). Copper scores **62%**
+(placeholder 50%, random 10%). See [docs/prospectivity-baseline.md](docs/prospectivity-baseline.md).
+It is not wired into the API yet.
+
 ## Run it
 
 Requires Python 3.11+ and Node 20+.
