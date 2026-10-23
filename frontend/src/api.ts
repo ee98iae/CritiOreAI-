@@ -39,6 +39,7 @@ export const api = {
   regions: () => get<Region[]>("/api/regions"),
   occurrences: (commodity?: Commodity) =>
     get<GeoJSON.FeatureCollection>(`/api/occurrences${commodity ? `?commodity=${commodity}` : ""}`),
+  listedMiners: () => get<GeoJSON.FeatureCollection>("/api/listed-miners"),
   grid: (commodity: Commodity) => get<GeoJSON.FeatureCollection>(`/api/prospectivity/grid?commodity=${commodity}`),
   targets: (commodity: Commodity, limit = 10) =>
     get<{ model_version: string; targets: Target[] }>(`/api/targets?commodity=${commodity}&limit=${limit}`),

@@ -15,6 +15,10 @@ const BASEMAPS: Record<Basemap, { tiles: string[]; attribution: string }> = {
   },
 };
 
+// Mongolia's extent, for the listed-miners layer which covers the whole country.
+const MONGOLIA_BOUNDS: [[number, number], [number, number]] = [[87.7, 41.5], [120.0, 52.2]];
+const MINER_COLORS = ["match", ["get", "status"], "producing", "#7b2cbf", "development", "#c77dff", "#e0d3ee"];
+
 const OCC_COLORS = ["match", ["get", "type"], "deposit", "#d7263d", "occurrence", "#f49d37", "#3f88c5"];
 
 function style(basemap: Basemap): StyleSpecification {
@@ -36,6 +40,9 @@ interface Props {
   targets: Target[];
   showGrid: boolean;
   showOccurrences: boolean;
+  miners: GeoJSON.FeatureCollection | null;
+  showMiners: boolean;
+  fitMongolia: number;
   focus: { lat: number; lon: number } | null;
   onMapClick: (lat: number, lon: number) => void;
 }
@@ -45,6 +52,7 @@ const EMPTY: GeoJSON.FeatureCollection = { type: "FeatureCollection", features: 
 function addDataLayers(map: MlMap) {
   map.addSource("grid", { type: "geojson", data: EMPTY });
   map.addSource("occurrences", { type: "geojson", data: EMPTY });
+  map.addSource("miners", { type: "geojson", data: EMPTY });
   map.addLayer({
     id: "grid",
     type: "fill",
@@ -65,6 +73,49 @@ function addDataLayers(map: MlMap) {
       "circle-stroke-width": 1.2,
     },
   });
+  map.addLayer({
+    id: "miners",
+    type: "circle",
+    source: "miners",
+    layout: { visibility: "none" },
+    paint: {
+      "circle-radius": 8,
+      "circle-color": MINER_COLORS as never,
+      "circle-stroke-color": "#1b1035",
+      "circle-stroke-width": 2.5,
+    },
+  });
+}
+
+// Built with textContent and checked https links: fields come from curated but external data.
+function minerPopup(p: Record<string, unknown>): HTMLElement {
+  const parse = <T,>(v: unknown): T => (typeof v === "string" ? JSON.parse(v) : v) as T;
+  const companies = parse<{ name: string; tickers: string[]; stake: string }[]>(p.companies);
+  const commodities = parse<string[]>(p.commodities);
+  const sources = parse<string[]>(p.sources);
+  const el = document.createElement("div");
+  el.className = "miner-popup";
+  el.appendChild(document.createElement("strong")).textContent = String(p.site);
+  el.appendChild(document.createElement("div")).textContent =
+    `${p.status} · ${commodities.join(", ")} · ${p.province}`;
+  const list = el.appendChild(document.createElement("ul"));
+  for (const c of companies) {
+    list.appendChild(document.createElement("li")).textContent = `${c.name} (${c.tickers.join(", ")}), ${c.stake}`;
+  }
+  el.appendChild(document.createElement("div")).textContent = String(p.ownership);
+  if (p.note) el.appendChild(document.createElement("small")).textContent = String(p.note);
+  const src = el.appendChild(document.createElement("div"));
+  src.className = "small";
+  src.append(`As of ${p.as_of}${p.precision === "approximate" ? " · location approximate" : ""} · `);
+  sources.filter((u) => u.startsWith("https://")).forEach((u, i) => {
+    const a = src.appendChild(document.createElement("a"));
+    a.href = u;
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    a.textContent = `source ${i + 1}`;
+    src.append(" ");
+  });
+  return el;
 }
 
 export default function MapView(props: Props) {
@@ -105,6 +156,12 @@ export default function MapView(props: Props) {
       src.textContent = `${p.source}${p.synthetic ? " · synthetic" : ""}`;
       new maplibregl.Popup().setLngLat(e.lngLat).setDOMContent(el).addTo(map);
     });
+    map.on("click", "miners", (e) => {
+      const p = e.features?.[0]?.properties;
+      if (p) new maplibregl.Popup({ maxWidth: "320px" }).setLngLat(e.lngLat).setDOMContent(minerPopup(p)).addTo(map);
+    });
+    map.on("mouseenter", "miners", () => (map.getCanvas().style.cursor = "pointer"));
+    map.on("mouseleave", "miners", () => (map.getCanvas().style.cursor = ""));
     map.on("mouseenter", "occurrences", () => (map.getCanvas().style.cursor = "pointer"));
     map.on("mouseleave", "occurrences", () => (map.getCanvas().style.cursor = ""));
     mapRef.current = map;
@@ -118,7 +175,11 @@ export default function MapView(props: Props) {
   useEffect(() => {
     const map = mapRef.current;
     if (map && ready.current) syncData(map, props);
-  }, [props.occurrences, props.grid, props.showGrid, props.showOccurrences]);
+  }, [props.occurrences, props.grid, props.showGrid, props.showOccurrences, props.miners, props.showMiners]);
+
+  useEffect(() => {
+    if (props.fitMongolia && mapRef.current) mapRef.current.fitBounds(MONGOLIA_BOUNDS, { padding: 20 });
+  }, [props.fitMongolia]);
 
   // Ranked targets are HTML markers, so their labels need no remote font glyphs.
   useEffect(() => {
@@ -164,4 +225,6 @@ function syncData(map: MlMap, p: Props) {
   if (map.getLayer("grid")) map.setLayoutProperty("grid", "visibility", p.showGrid ? "visible" : "none");
   if (map.getLayer("occurrences"))
     map.setLayoutProperty("occurrences", "visibility", p.showOccurrences ? "visible" : "none");
+  (map.getSource("miners") as GeoJSONSource | undefined)?.setData(p.miners ?? EMPTY);
+  if (map.getLayer("miners")) map.setLayoutProperty("miners", "visibility", p.showMiners ? "visible" : "none");
 }

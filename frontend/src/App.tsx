@@ -19,6 +19,9 @@ export default function App() {
   const [basemap, setBasemap] = useState<Basemap>("satellite");
   const [showGrid, setShowGrid] = useState(true);
   const [showOccurrences, setShowOccurrences] = useState(true);
+  const [showMiners, setShowMiners] = useState(false);
+  const [miners, setMiners] = useState<GeoJSON.FeatureCollection | null>(null);
+  const [fitMongolia, setFitMongolia] = useState(0);
   const [occurrences, setOccurrences] = useState<GeoJSON.FeatureCollection | null>(null);
   const [grid, setGrid] = useState<GeoJSON.FeatureCollection | null>(null);
   const [targets, setTargets] = useState<Target[]>([]);
@@ -30,6 +33,7 @@ export default function App() {
   useEffect(() => {
     api.regions().then((rs) => setRegion(rs[0] ?? null)).catch((e) => setError(String(e)));
     api.occurrences().then(setOccurrences).catch((e) => setError(String(e)));
+    api.listedMiners().then(setMiners).catch((e) => setError(String(e)));
   }, []);
 
   useEffect(() => {
@@ -84,6 +88,17 @@ export default function App() {
           <label>
             <input
               type="checkbox"
+              checked={showMiners}
+              onChange={(e) => {
+                setShowMiners(e.target.checked);
+                if (e.target.checked) setFitMongolia((n) => n + 1);
+              }}
+            />{" "}
+            Listed miners ({miners?.features.length ?? "…"} sites)
+          </label>
+          <label>
+            <input
+              type="checkbox"
               checked={basemap === "satellite"}
               onChange={(e) => setBasemap(e.target.checked ? "satellite" : "streets")}
             />{" "}
@@ -96,7 +111,21 @@ export default function App() {
           <span><i className="dot occurrence" /> Occurrence</span>
           <span><i className="dot showing" /> Showing</span>
           <span><i className="ring" /> Ranked target</span>
+          {showMiners && (
+            <>
+              <span><i className="dot miner producing" /> Listed: producing</span>
+              <span><i className="dot miner development" /> Listed: development</span>
+              <span><i className="dot miner other" /> Listed: other</span>
+            </>
+          )}
         </section>
+        {showMiners && (
+          <p className="muted small">
+            Mines and projects run by publicly traded companies, checked Oct 2026. Click a marker for owners,
+            tickers and sources.{" "}
+            <button className="link" onClick={() => setFitMongolia((n) => n + 1)}>Show all of Mongolia</button>
+          </p>
+        )}
 
         {picked && (
           <section className="card">
@@ -132,6 +161,9 @@ export default function App() {
         targets={targets}
         showGrid={showGrid}
         showOccurrences={showOccurrences}
+        miners={miners}
+        showMiners={showMiners}
+        fitMongolia={fitMongolia}
         focus={focus}
         onMapClick={onMapClick}
       />

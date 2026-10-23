@@ -1,0 +1,907 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8583,
+     43.0028
+    ]
+   },
+   "properties": {
+    "id": "oyu-tolgoi",
+    "site": "Oyu Tolgoi",
+    "precision": "exact",
+    "province": "Ömnögovi",
+    "commodities": [
+     "Cu",
+     "Au",
+     "Ag"
+    ],
+    "status": "producing",
+    "companies": [
+     {
+      "name": "Rio Tinto",
+      "tickers": [
+       "LSE: RIO",
+       "ASX: RIO",
+       "NYSE: RIO"
+      ],
+      "stake": "66%"
+     }
+    ],
+    "ownership": "Rio Tinto 66%, Erdenes Oyu Tolgoi (state) 34%",
+    "note": "Open pit plus block-cave underground ramping up; 113.5 kt Cu in Q3 2026.",
+    "sources": [
+     "https://www.sec.gov/Archives/edgar/data/0000863064/000086306426000041/ex1prodresults.htm",
+     "https://pubs.usgs.gov/of/2003/of03-220/"
+    ],
+    "as_of": "2026-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.87,
+     43.08
+    ]
+   },
+   "properties": {
+    "id": "hugo-north-extension",
+    "site": "Hugo North Extension (Shivee Tolgoi licence)",
+    "precision": "approximate",
+    "province": "Ömnögovi",
+    "commodities": [
+     "Cu",
+     "Au"
+    ],
+    "status": "development",
+    "companies": [
+     {
+      "name": "Entrée Resources",
+      "tickers": [
+       "TSX: ETG",
+       "OTCQB: ERLFF"
+      ],
+      "stake": "20%"
+     }
+    ],
+    "ownership": "Entrée/Oyu Tolgoi JV: Entrée 20%, Oyu Tolgoi LLC 80%",
+    "note": "Northern extension of the Oyu Tolgoi underground ore body, mined through OT's Lift 1.",
+    "sources": [
+     "https://pipelineroad.com/news/20260409-entr-e-resources-updates-on-joint-venture-licenses-and-explo"
+    ],
+    "as_of": "2026-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.8,
+     42.95
+    ]
+   },
+   "properties": {
+    "id": "heruga",
+    "site": "Heruga (Javhlant licence)",
+    "precision": "approximate",
+    "province": "Ömnögovi",
+    "commodities": [
+     "Cu",
+     "Au",
+     "Mo"
+    ],
+    "status": "exploration",
+    "companies": [
+     {
+      "name": "Entrée Resources",
+      "tickers": [
+       "TSX: ETG",
+       "OTCQB: ERLFF"
+      ],
+      "stake": "30%"
+     }
+    ],
+    "ownership": "Entrée/Oyu Tolgoi JV: Entrée 30%, Oyu Tolgoi LLC 70%",
+    "note": "Deep porphyry deposit south of Oyu Tolgoi; resource stage.",
+    "sources": [
+     "https://pipelineroad.com/news/20260409-entr-e-resources-updates-on-joint-venture-licenses-and-explo"
+    ],
+    "as_of": "2026-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     105.5181,
+     43.6668
+    ]
+   },
+   "properties": {
+    "id": "ukhaa-khudag",
+    "site": "Ukhaa Khudag",
+    "precision": "exact",
+    "province": "Ömnögovi",
+    "commodities": [
+     "coking coal"
+    ],
+    "status": "producing",
+    "companies": [
+     {
+      "name": "Mongolian Mining Corporation",
+      "tickers": [
+       "HKEX: 975"
+      ],
+      "stake": "100%"
+     }
+    ],
+    "ownership": "Energy Resources LLC (100% MMC)",
+    "note": "4.4 Mt raw coal mined in Q2 2026 (with Baruun Naran reported jointly).",
+    "sources": [
+     "https://www.mmc.mn/storage/announcements/July2026/eYBYJpa6W6Dgn3MC7Ucq.pdf",
+     "https://www.gem.wiki/Ukhaa_Khudag_Coal_Mine"
+    ],
+    "as_of": "2026-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     105.2226,
+     43.5979
+    ]
+   },
+   "properties": {
+    "id": "baruun-naran",
+    "site": "Baruun Naran",
+    "precision": "exact",
+    "province": "Ömnögovi",
+    "commodities": [
+     "coking coal"
+    ],
+    "status": "producing",
+    "companies": [
+     {
+      "name": "Mongolian Mining Corporation",
+      "tickers": [
+       "HKEX: 975"
+      ],
+      "stake": "controlled"
+     }
+    ],
+    "ownership": "Khangad Exploration LLC (MMC-controlled)",
+    "note": "",
+    "sources": [
+     "https://www.mmc.mn/storage/announcements/July2026/eYBYJpa6W6Dgn3MC7Ucq.pdf",
+     "https://www.gem.wiki/Baruun_Naran_Coal_Mine"
+    ],
+    "as_of": "2026-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     98.8,
+     43.9488
+    ]
+   },
+   "properties": {
+    "id": "bayan-khundii",
+    "site": "Bayan Khundii",
+    "precision": "approximate",
+    "province": "Bayankhongor",
+    "commodities": [
+     "Au",
+     "Ag"
+    ],
+    "status": "producing",
+    "companies": [
+     {
+      "name": "Erdene Resource Development",
+      "tickers": [
+       "TSX: ERD",
+       "MSE: ERDN",
+       "OTCQX: ERDCF"
+      ],
+      "stake": "50%"
+     },
+     {
+      "name": "Mongolian Mining Corporation",
+      "tickers": [
+       "HKEX: 975"
+      ],
+      "stake": "50%"
+     }
+    ],
+    "ownership": "Erdene Mongol LLC: Erdene 50%, MMC 50%",
+    "note": "First gold Sept 2025; 11,709 oz Au sold in Q2 2026. Point is the Khundii licence centre.",
+    "sources": [
+     "https://www.cruxinvestor.com/posts/erdene-resource-development-reports-q2-2026-gold-production-and-advances-khundii-district-projects",
+     "https://www.mmc.mn/storage/announcements/July2026/eYBYJpa6W6Dgn3MC7Ucq.pdf",
+     "https://erdene.com/site/assets/files/3974/bayan_khundii_march_2017_technical_report.pdf"
+    ],
+    "as_of": "2026-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     98.7,
+     44.08
+    ]
+   },
+   "properties": {
+    "id": "altan-nar",
+    "site": "Altan Nar",
+    "precision": "approximate",
+    "province": "Bayankhongor",
+    "commodities": [
+     "Au",
+     "Ag",
+     "Pb",
+     "Zn"
+    ],
+    "status": "development",
+    "companies": [
+     {
+      "name": "Erdene Resource Development",
+      "tickers": [
+       "TSX: ERD",
+       "MSE: ERDN",
+       "OTCQX: ERDCF"
+      ],
+      "stake": "100%"
+     }
+    ],
+    "ownership": "Erdene",
+    "note": "About 16 km north-west of Bayan Khundii; resource revised Q2 2026.",
+    "sources": [
+     "https://www.cruxinvestor.com/posts/erdene-resource-development-reports-q2-2026-gold-production-and-advances-khundii-district-projects",
+     "https://erdene.com/site/assets/files/3974/bayan_khundii_march_2017_technical_report.pdf"
+    ],
+    "as_of": "2026-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     99.3,
+     43.95
+    ]
+   },
+   "properties": {
+    "id": "zuun-mod",
+    "site": "Zuun Mod",
+    "precision": "approximate",
+    "province": "Bayankhongor",
+    "commodities": [
+     "Mo",
+     "Cu"
+    ],
+    "status": "development",
+    "companies": [
+     {
+      "name": "Erdene Resource Development",
+      "tickers": [
+       "TSX: ERD",
+       "MSE: ERDN",
+       "OTCQX: ERDCF"
+      ],
+      "stake": "100%"
+     }
+    ],
+    "ownership": "Erdene",
+    "note": "About 40 km east of Bayan Khundii; PEA due H2 2026.",
+    "sources": [
+     "https://www.cruxinvestor.com/posts/erdene-resource-development-reports-q2-2026-gold-production-and-advances-khundii-district-projects",
+     "https://erdene.com/site/assets/files/3974/bayan_khundii_march_2017_technical_report.pdf"
+    ],
+    "as_of": "2026-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     112.72,
+     48.55
+    ]
+   },
+   "properties": {
+    "id": "ato",
+    "site": "ATO (Altan Tsagaan Ovoo)",
+    "precision": "approximate",
+    "province": "Dornod",
+    "commodities": [
+     "Au",
+     "Ag",
+     "Pb",
+     "Zn"
+    ],
+    "status": "producing",
+    "companies": [
+     {
+      "name": "Steppe Gold",
+      "tickers": [
+       "TSX: STGO",
+       "OTCQX: STPGF"
+      ],
+      "stake": "100%"
+     }
+    ],
+    "ownership": "Steppe Gold 100%",
+    "note": "38 km west of Tsagaan-Ovoo soum centre.",
+    "sources": [
+     "https://www.newsfilecorp.com/release/218595",
+     "https://www.mining-technology.com/projects/altan-tsagaan-ovoo-ato-gold-and-silver-project-dornod-mongolia/"
+    ],
+    "as_of": "2026-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.15,
+     48.75
+    ]
+   },
+   "properties": {
+    "id": "boroo",
+    "site": "Boroo",
+    "precision": "exact",
+    "province": "Selenge",
+    "commodities": [
+     "Au"
+    ],
+    "status": "producing",
+    "companies": [
+     {
+      "name": "Steppe Gold",
+      "tickers": [
+       "TSX: STGO",
+       "OTCQX: STPGF"
+      ],
+      "stake": "100%"
+     }
+    ],
+    "ownership": "Boroo Gold LLC, acquired by Steppe Gold Aug 2024",
+    "note": "Mill also treats Ulaanbulag ore.",
+    "sources": [
+     "https://www.newsfilecorp.com/release/218595",
+     "https://miningdataonline.com/property/1030/Boroo-Mine.aspx",
+     "https://pubs.usgs.gov/of/2003/of03-220/"
+    ],
+    "as_of": "2026-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.35,
+     48.62
+    ]
+   },
+   "properties": {
+    "id": "ulaanbulag",
+    "site": "Ulaanbulag",
+    "precision": "approximate",
+    "province": "Selenge",
+    "commodities": [
+     "Au"
+    ],
+    "status": "producing",
+    "companies": [
+     {
+      "name": "Steppe Gold",
+      "tickers": [
+       "TSX: STGO",
+       "OTCQX: STPGF"
+      ],
+      "stake": "100%"
+     }
+    ],
+    "ownership": "Boroo Gold LLC (Steppe Gold)",
+    "note": "Satellite pit about 21 km south-east of Boroo.",
+    "sources": [
+     "https://www.newsfilecorp.com/release/218595",
+     "https://miningdataonline.com/property/1030/Boroo-Mine.aspx"
+    ],
+    "as_of": "2026-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.2606,
+     43.0022
+    ]
+   },
+   "properties": {
+    "id": "ovoot-tolgoi",
+    "site": "Ovoot Tolgoi",
+    "precision": "exact",
+    "province": "Ömnögovi",
+    "commodities": [
+     "coking coal",
+     "thermal coal"
+    ],
+    "status": "producing",
+    "companies": [
+     {
+      "name": "SouthGobi Resources",
+      "tickers": [
+       "HKEX: 1878",
+       "TSXV: SGQ"
+      ],
+      "stake": "100%"
+     }
+    ],
+    "ownership": "SouthGobi Sands LLC (100% SouthGobi)",
+    "note": "3.5 Mt sold in Q2 2026; designated a deposit of strategic importance.",
+    "sources": [
+     "https://www.newswire.com/news/southgobi-announces-second-quarter-2026-unaudited-financial-and-operating",
+     "https://www.gem.wiki/Ovoot_Tolgoi_Coal_Mine"
+    ],
+    "as_of": "2026-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.51,
+     43.0
+    ]
+   },
+   "properties": {
+    "id": "soumber",
+    "site": "Soumber",
+    "precision": "approximate",
+    "province": "Ömnögovi",
+    "commodities": [
+     "coking coal"
+    ],
+    "status": "development",
+    "companies": [
+     {
+      "name": "SouthGobi Resources",
+      "tickers": [
+       "HKEX: 1878",
+       "TSXV: SGQ"
+      ],
+      "stake": "100%"
+     }
+    ],
+    "ownership": "SouthGobi",
+    "note": "About 20 km east of Ovoot Tolgoi; one licence still in a protected area.",
+    "sources": [
+     "https://www.newswire.com/news/southgobi-announces-second-quarter-2026-unaudited-financial-and-operating"
+    ],
+    "as_of": "2026-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     93.3096,
+     46.8072
+    ]
+   },
+   "properties": {
+    "id": "khushuut",
+    "site": "Khushuut",
+    "precision": "exact",
+    "province": "Khovd",
+    "commodities": [
+     "coking coal"
+    ],
+    "status": "producing",
+    "companies": [
+     {
+      "name": "Mongolia Energy Corporation",
+      "tickers": [
+       "HKEX: 276"
+      ],
+      "stake": "100%"
+     }
+    ],
+    "ownership": "MoEnCo (100% Mongolia Energy Corp)",
+    "note": "Relocating site facilities by 2027.",
+    "sources": [
+     "https://www.webull.com.au/news-detail/15439987216917504",
+     "https://www.gem.wiki/Khushuut_Coal_Mine"
+    ],
+    "as_of": "2026-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.1444,
+     44.0319
+    ]
+   },
+   "properties": {
+    "id": "kharmagtai",
+    "site": "Kharmagtai",
+    "precision": "exact",
+    "province": "Ömnögovi",
+    "commodities": [
+     "Cu",
+     "Au"
+    ],
+    "status": "development",
+    "companies": [
+     {
+      "name": "Zijin Mining",
+      "tickers": [
+       "HKEX: 2899",
+       "SSE: 601899"
+      ],
+      "stake": "38.25% effective"
+     }
+    ],
+    "ownership": "Khuiten Metals 76.5%, itself 50/50 Zijin and Bastion Mining (private, Boroo-led)",
+    "note": "Zijin operates since Sept 2024; PFS done. Xanadu Mines, the former ASX/TSX partner, was taken private by Bastion in 2025.",
+    "sources": [
+     "https://www.businessnews.com.au/article/Xanadu-hands-ball-to-Zijin-for-Mongolian-copper-gold-goal",
+     "https://www.tipranks.com/news/company-announcements/xanadu-mines-ltd-to-be-delisted-following-acquisition",
+     "https://pubs.usgs.gov/of/2003/of03-220/"
+    ],
+    "as_of": "2026-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     97.4965,
+     49.3641
+    ]
+   },
+   "properties": {
+    "id": "ovoot-coking",
+    "site": "Ovoot coking coal project",
+    "precision": "approximate",
+    "province": "Khövsgöl",
+    "commodities": [
+     "coking coal"
+    ],
+    "status": "development",
+    "companies": [
+     {
+      "name": "Aspire Mining",
+      "tickers": [
+       "ASX: AKM"
+      ],
+      "stake": "100%"
+     }
+    ],
+    "ownership": "Aspire Mining 100%",
+    "note": "Permitted; construction not started as of early 2026.",
+    "sources": [
+     "https://www.gem.wiki/Ovoot_Coking_Project"
+    ],
+    "as_of": "2026-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     104.9736,
+     50.3178
+    ]
+   },
+   "properties": {
+    "id": "ulaan-ovoo",
+    "site": "Ulaan Ovoo",
+    "precision": "exact",
+    "province": "Selenge",
+    "commodities": [
+     "thermal coal"
+    ],
+    "status": "standby",
+    "companies": [
+     {
+      "name": "Silver Elephant Mining",
+      "tickers": [
+       "TSX: ELEF",
+       "OTCQB: SILEF"
+      ],
+      "stake": "100%"
+     }
+    ],
+    "ownership": "Silver Elephant 100%",
+    "note": "Leased July 2026 to a Mongolian operator who will mine it for a per-tonne royalty.",
+    "sources": [
+     "https://www.newsfilecorp.com/release/304044",
+     "https://www.gem.wiki/Ulaan_Ovoo_Coal_Mine"
+    ],
+    "as_of": "2026-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.3249,
+     47.7506
+    ]
+   },
+   "properties": {
+    "id": "baganuur",
+    "site": "Baganuur",
+    "precision": "exact",
+    "province": "Ulaanbaatar (Baganuur)",
+    "commodities": [
+     "thermal coal"
+    ],
+    "status": "producing",
+    "companies": [
+     {
+      "name": "Baganuur JSC",
+      "tickers": [
+       "MSE: BAN"
+      ],
+      "stake": "100%"
+     }
+    ],
+    "ownership": "Baganuur JSC (state majority)",
+    "note": "About 5 Mt in 2024; supplies Ulaanbaatar power plants.",
+    "sources": [
+     "https://www.gem.wiki/Baganuur_Coal_Mine",
+     "https://en.wikipedia.org/wiki/List_of_companies_listed_on_the_Mongolian_Stock_Exchange"
+    ],
+    "as_of": "2026-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     108.5307,
+     46.224
+    ]
+   },
+   "properties": {
+    "id": "shivee-ovoo",
+    "site": "Shivee Ovoo",
+    "precision": "approximate",
+    "province": "Govisümber",
+    "commodities": [
+     "thermal coal"
+    ],
+    "status": "producing",
+    "companies": [
+     {
+      "name": "Shivee Ovoo JSC",
+      "tickers": [
+       "MSE: SHV"
+      ],
+      "stake": "100%"
+     }
+    ],
+    "ownership": "Shivee Ovoo JSC (state majority)",
+    "note": "GEM gives two locations; this is the Details one.",
+    "sources": [
+     "https://www.gem.wiki/Shivee-Ovoo_mine",
+     "https://en.wikipedia.org/wiki/List_of_companies_listed_on_the_Mongolian_Stock_Exchange"
+    ],
+    "as_of": "2026-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     105.4417,
+     43.6517
+    ]
+   },
+   "properties": {
+    "id": "tavan-tolgoi-small",
+    "site": "Tavan Tolgoi (provincial licence)",
+    "precision": "approximate",
+    "province": "Ömnögovi",
+    "commodities": [
+     "coking coal"
+    ],
+    "status": "producing",
+    "companies": [
+     {
+      "name": "Tavan Tolgoi JSC",
+      "tickers": [
+       "MSE: TTL"
+      ],
+      "stake": "100%"
+     }
+    ],
+    "ownership": "Ömnögovi province majority",
+    "note": "Small licence beside the state Erdenes Tavan Tolgoi field (not listed yet); 4.3 Mt in 2024.",
+    "sources": [
+     "https://www.gem.wiki/Tavan_Tolgoi_(Small)_Coal_Mine",
+     "https://en.wikipedia.org/wiki/List_of_companies_listed_on_the_Mongolian_Stock_Exchange"
+    ],
+    "as_of": "2026-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     106.422,
+     49.2282
+    ]
+   },
+   "properties": {
+    "id": "sharyn-gol",
+    "site": "Sharyn Gol",
+    "precision": "exact",
+    "province": "Darkhan-Uul",
+    "commodities": [
+     "thermal coal"
+    ],
+    "status": "unverified",
+    "companies": [
+     {
+      "name": "Sharyn Gol JSC",
+      "tickers": [
+       "MSE: SHG"
+      ],
+      "stake": "100%"
+     }
+    ],
+    "ownership": "Sharyn Gol JSC",
+    "note": "Long-running mine; current output not confirmed.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Sharyn_Gol_Coal_Mine",
+     "https://en.wikipedia.org/wiki/List_of_companies_listed_on_the_Mongolian_Stock_Exchange"
+    ],
+    "as_of": "2026-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     114.5378,
+     48.1272
+    ]
+   },
+   "properties": {
+    "id": "aduunchuluun",
+    "site": "Aduunchuluun",
+    "precision": "exact",
+    "province": "Dornod",
+    "commodities": [
+     "thermal coal"
+    ],
+    "status": "producing",
+    "companies": [
+     {
+      "name": "Aduunchuluun JSC",
+      "tickers": [
+       "MSE: ADL"
+      ],
+      "stake": "100%"
+     }
+    ],
+    "ownership": "Aduunchuluun JSC (GEM also names MAK as owner)",
+    "note": "Supplies Choibalsan.",
+    "sources": [
+     "https://www.gem.wiki/Aduunchuluun_Coal_Mine",
+     "https://en.wikipedia.org/wiki/List_of_companies_listed_on_the_Mongolian_Stock_Exchange"
+    ],
+    "as_of": "2026-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     97.8296,
+     49.3584
+    ]
+   },
+   "properties": {
+    "id": "mogoin-gol",
+    "site": "Mogoin Gol",
+    "precision": "exact",
+    "province": "Khövsgöl",
+    "commodities": [
+     "thermal coal"
+    ],
+    "status": "producing",
+    "companies": [
+     {
+      "name": "Mogoin Gol JSC",
+      "tickers": [
+       "MSE: BDL"
+      ],
+      "stake": "100%"
+     }
+    ],
+    "ownership": "Mogoin Gol JSC",
+    "note": "",
+    "sources": [
+     "https://www.gem.wiki/Mogoin_Gol_Coal_Mine",
+     "https://en.wikipedia.org/wiki/List_of_companies_listed_on_the_Mongolian_Stock_Exchange"
+    ],
+    "as_of": "2026-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     101.56,
+     45.6973
+    ]
+   },
+   "properties": {
+    "id": "bayanteeg",
+    "site": "Bayanteeg",
+    "precision": "exact",
+    "province": "Övörkhangai",
+    "commodities": [
+     "thermal coal"
+    ],
+    "status": "unverified",
+    "companies": [
+     {
+      "name": "Bayanteeg JSC",
+      "tickers": [
+       "MSE: BTG"
+      ],
+      "stake": "100%"
+     }
+    ],
+    "ownership": "Bayanteeg JSC",
+    "note": "Small underground mine; current output not confirmed.",
+    "sources": [
+     "https://en.wikipedia.org/wiki/Bayanteeg_Coal_Mine",
+     "https://en.wikipedia.org/wiki/List_of_companies_listed_on_the_Mongolian_Stock_Exchange"
+    ],
+    "as_of": "2026-10"
+   }
+  }
+ ]
+}
