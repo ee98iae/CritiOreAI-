@@ -4,6 +4,10 @@ services:
     ports: ["8000:8000"]
     environment:
       CRITIORE_CORS_ORIGINS: http://localhost:5173
+      # Set a long random value in any shared deployment, or sessions end on every restart.
+      CRITIORE_SECRET: ${CRITIORE_SECRET:-}
+    # Built layers and login accounts live outside the image.
+    volumes: ["./backend/data:/app/data"]
   web:
     image: node:22-slim
     working_dir: /app

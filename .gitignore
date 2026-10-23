@@ -5,5 +5,9 @@ node_modules/
 dist/
 *.log
 .env
+# Built by `python -m pipeline.run`; regenerate rather than commit.
+backend/data/layers/
+# Login accounts with password hashes.
+backend/data/users.json
 backend/data/raw/
 backend/out/
