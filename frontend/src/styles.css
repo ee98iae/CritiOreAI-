@@ -26,6 +26,13 @@ select { display: block; width: 100%; margin-top: 4px; padding: 6px; font-size: 
 .dot.occurrence { background: #f49d37; }
 .dot.showing { background: #3f88c5; }
 .ring { border: 2px solid #111; }
+.dot.miner { width: 12px; height: 12px; border: 2.5px solid #1b1035; vertical-align: -2px; }
+.dot.miner.producing { background: #7b2cbf; }
+.dot.miner.development { background: #c77dff; }
+.dot.miner.other { background: #e0d3ee; }
+.link { background: none; border: 0; padding: 0; color: var(--accent); text-decoration: underline; cursor: pointer; font: inherit; }
+.miner-popup a { word-break: break-all; }
+.miner-popup ul { margin: 4px 0 0; padding-left: 16px; }
 .notice { background: #fff4d6; border: 1px solid #f0d58a; padding: 8px; border-radius: 6px; font-size: 13px; margin: 0; }
 .error { background: #fde8e6; border: 1px solid #f2b8b0; padding: 8px; border-radius: 6px; font-size: 13px; margin: 0; }
 .card { border: 1px solid var(--line); border-radius: 8px; padding: 10px; background: #fff; }

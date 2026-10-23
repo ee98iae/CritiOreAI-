@@ -13,6 +13,7 @@ from pathlib import Path
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 DEFAULT_PATH = DATA_DIR / "occurrences_neasia_mongolia.geojson"
 DEMO_PATH = DATA_DIR / "occurrences_demo.geojson"
+LISTED_MINERS_PATH = DATA_DIR / "listed_miners_mongolia.geojson"
 
 
 @dataclass(frozen=True)
@@ -62,3 +63,10 @@ def load_occurrences() -> tuple[Occurrence, ...]:
     with path.open(encoding="utf-8") as f:
         fc = json.load(f)
     return tuple(_parse(feat) for feat in fc["features"] if feat.get("geometry"))
+
+
+@lru_cache(maxsize=1)
+def load_listed_miners() -> dict:
+    """Mines and projects run by publicly traded companies (built by scripts/build_listed_miners.py)."""
+    with LISTED_MINERS_PATH.open(encoding="utf-8") as f:
+        return json.load(f)

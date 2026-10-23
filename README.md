@@ -27,6 +27,13 @@ prospectivity model that the real ML model will replace.
 > started with is kept as `backend/data/occurrences_demo.geojson` and is what the
 > tests run against.
 
+## Listed miners layer
+
+Tick **Listed miners** to see the mines and projects in Mongolia that publicly traded
+companies run (24 sites, from Rio Tinto's Oyu Tolgoi to Mongolian Stock Exchange coal miners),
+coloured by status. Click a marker for owners, tickers, stakes and sources. See
+[docs/listed-miners.md](docs/listed-miners.md) for the full table and what was left out.
+
 ## Prospectivity baseline
 
 `backend/ml/` holds the first trained model: gradient-boosted trees on the Sentinel-2
@@ -64,6 +71,7 @@ Tests: `cd backend && pytest`.
 | GET | `/api/regions` | Pilot region(s) with bbox and commodities |
 | GET | `/api/occurrences?commodity=Cu&bbox=s,w,n,e` | Occurrences as GeoJSON |
 | GET | `/api/occurrences/{id}` | One occurrence |
+| GET | `/api/listed-miners?status=producing` | Mines/projects run by listed companies, as GeoJSON |
 | POST | `/api/prospectivity/score` | `{lat, lon, commodity}` → score, confidence, evidence |
 | GET | `/api/prospectivity/grid?commodity=Cu&cell_deg=0.05` | Scored grid cells as GeoJSON polygons |
 | GET | `/api/targets?commodity=Cu&limit=10` | Top targets, at least 10 km apart |

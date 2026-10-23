@@ -5,7 +5,7 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
-from .data import Occurrence, load_occurrences
+from .data import Occurrence, load_listed_miners, load_occurrences
 from .regions import PILOT_REGION, REGIONS
 from .scoring import MODEL_VERSION, Cell, Score, rank_targets, score_grid, score_point
 
@@ -103,6 +103,15 @@ def occurrence(occurrence_id: str):
         if o.id == occurrence_id:
             return o.to_feature()
     raise HTTPException(404, f"Unknown occurrence '{occurrence_id}'")
+
+
+@app.get("/api/listed-miners")
+def listed_miners(status: str | None = Query(None, description="producing, development, exploration, standby or unverified")):
+    fc = load_listed_miners()
+    feats = fc["features"]
+    if status:
+        feats = [f for f in feats if f["properties"]["status"] == status]
+    return {"type": "FeatureCollection", "features": feats}
 
 
 @app.post("/api/prospectivity/score")
